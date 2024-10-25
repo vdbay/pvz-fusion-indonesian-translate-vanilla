@@ -1,0 +1,1110 @@
+{
+  "plants": [
+    {
+      "seedType": 0,
+      "name": "Peashooter",
+      "introduce": "<size=24><color=#3D1400>Bagaimana satu tanaman bisa tumbuh dan menembakkan begitu banyak kacang dengan cepat? Peashooter bilang, \u0022Kerja keras, komitmen, dan sarapan sehat yang seimbang dari sinar matahari dan karbon dioksida tinggi serat membuat semua ini mungkin.\u0022</color></size>",
+      "info": "<size=24>Peashooters adalah barisan pertahanan pertama kamu. Mereka menembakkan kacang ke zombie yang menyerang.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color></size>",
+      "cost": "<size=24>Biaya: <color=red>100</color>\nPengisian Ulang: <color=red>7.5 Detik</color></size>"
+    },
+    {
+      "seedType": 1,
+      "name": "Sunflower",
+      "introduce": "<size=24><color=#3D1400>Sunflower tak bisa menahan diri untuk melompat mengikuti irama. Irama apa itu? Tentu saja, irama jazzy yang memberi kehidupan dari Bumi sendiri, berdetak pada frekuensi yang hanya bisa didengar oleh Sunflower.</color></size>",
+      "info": "<size=24>Sunflowers sangat penting untuk memproduksi sinar matahari ekstra. Cobalah tanam sebanyak mungkin!\n\n<color=#3D1400>Produksi Matahari: </color><color=red>25/25 Detik</color></size>",
+      "cost": "<size=24>Biaya: <color=red>50</color>\nPengisian Ulang: <color=red>7.5 Detik</color></size>"
+    },
+    {
+      "seedType": 2,
+      "name": "Cherry Bomb",
+      "introduce": "<size=24><color=#3D1400>\u0022Aku mau meledak,\u0022 kata Cherry #1. \u0022Tidak, kita detonasikan saja!\u0022 kata saudaranya, Cherry #2. Setelah konsultasi intens, mereka sepakat untuk 'meledak-detonasi'.</color></size>",
+      "info": "<size=24>Cherry Bomb dapat meledakkan semua zombie di area. Mereka memiliki sumbu pendek, jadi tanam dekat zombie.\n\n<color=#3D1400>Kerusakan: </color><color=red>1800 (Abu)</color></size>",
+      "cost": "<size=24>Biaya: <color=red>150</color>\nPengisian Ulang: <color=red>7.5 Detik</color></size>"
+    },
+    {
+      "seedType": 3,
+      "name": "Wall-nut",
+      "introduce": "<size=24><color=#3D1400>\u0022Orang-orang penasaran bagaimana rasanya terus menerus dikunyah oleh zombie,\u0022 kata Wall-nut. \u0022Apa yang tidak mereka sadari adalah dengan indra terbatas saya, yang saya rasakan hanyalah semacam kesemutan, seperti pijatan punggung yang menenangkan.\u0022</color></size>",
+      "info": "<size=24>Wall-nuts memiliki cangkang keras yang bisa kamu gunakan untuk melindungi tanaman lainnya.\n\n<color=#3D1400>Kekuatan: </color><color=red>4000</color></size>",
+      "cost": "<size=24>Biaya: <color=red>50</color>\nPengisian Ulang: <color=red>30 Detik</color></size>"
+    },
+    {
+      "seedType": 4,
+      "name": "Potato Mine",
+      "introduce": "<size=24><color=#3D1400>Beberapa orang bilang Potato Mine itu malas, karena selalu menunda semuanya hingga menit terakhir. Potato Mine tidak mengatakan apa-apa. Dia terlalu sibuk memikirkan strategi investasinya.</color></size>",
+      "info": "<size=24>Potato Mines memiliki kekuatan dahsyat, tetapi mereka perlu waktu untuk mempersiapkan diri. Sebaiknya tanam mereka sebelum zombie muncul. Mereka akan meledak saat terkena.\n\n<color=#3D1400>Kerusakan: </color><color=red>1800</color></size>",
+      "cost": "<size=24>Biaya: <color=red>25</color>\nPengisian Ulang: <color=red>30 Detik</color></size>"
+    },
+    {
+      "seedType": 5,
+      "name": "Chomper",
+      "introduce": "<size=24><color=#3D1400>Chomper hampir mendapatkan pekerjaan melakukan aksi untuk The Little Shop of Horrors, tetapi batal karena agennya meminta terlalu banyak di awal. Namun, Chomper tidak merasa dendam. Dia bilang itu hanya bagian dari bisnis.</color></size>",
+      "info": "<size=24>Chompers dapat melahap zombie dengan utuh, tetapi mereka rentan saat sedang mengunyah.\n\n<color=#3D1400>Kerusakan: </color><color=red> Pembunuhan Instan</color></size>",
+      "cost": "<size=24>Biaya: <color=red>150</color>\nPengisian Ulang: <color=red>7.5 Detik</color></size>"
+    },
+    {
+      "seedType": 6,
+      "name": "Puff-shroom",
+      "introduce": "<size=24><color=#3D1400>\u0022Saya baru-baru ini menyadari keberadaan zombie,\u0022 kata Puff-shroom. \u0022Seperti banyak jamur, saya hanya mengira mereka adalah dongeng atau monster film. Seluruh pengalaman ini telah menjadi pembuka mata yang besar bagi saya.\u0022</color></size>",
+      "info": "<size=24>Puff-shrooms murah, tetapi hanya bisa menembak dalam jarak pendek.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color>\n<color=#3D1400>Khusus: </color><color=red>Dapat ditumpuk hingga tiga kali.</color></size>",
+      "cost": "<size=24>Biaya: <color=red>0</color>\nPengisian Ulang: <color=red>7.5 Detik</color></size>"
+    },
+    {
+      "seedType": 7,
+      "name": "Fume-shroom",
+      "introduce": "<size=24><color=#3D1400>\u0022Dulu aku bekerja di pekerjaan yang tidak ada jalan keluarnya, memproduksi spora ragi untuk sebuah toko roti,\u0022 kata Fume-shroom. \u0022Kemudian Puff-shroom, yang baik hati, memberitahuku tentang kesempatan hebat untuk melawan zombie. Sekarang aku merasa benar-benar membuat perbedaan.\u0022</color></size>",
+      "info": "<size=24>Fume-shrooms menembakkan asap yang bisa menembus pintu layar.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color>\n<color=#3D1400>Khusus: </color><color=red>Dapat menembus.</color></size>",
+      "cost": "<size=24>Biaya: <color=red>75</color>\nPengisian Ulang: <color=red>7.5 Detik</color></size>"
+    },
+    {
+      "seedType": 8,
+      "name": "Hypno-shroom",
+      "introduce": "<size=24><color=#3D1400>\u0022Zombie adalah teman kita,\u0022 tegas Hypno-shroom. \u0022Mereka adalah makhluk yang sangat salah paham yang memainkan peran berharga dalam ekosistem kita. Kita bisa dan seharusnya melakukan lebih banyak untuk membawa mereka ke cara berpikir kita.\u0022</color></size>",
+      "info": "<size=24>Ketika dimakan, Hypno-shrooms akan membuat zombie berbalik dan bertarung untukmu.\n\n<color=#3D1400>Khusus: </color><color=red>Membuat satu zombie bertarung untukmu.</color></size>",
+      "cost": "<size=24>Biaya: <color=red>75</color>\nPengisian Ulang: <color=red>30 Detik</color></size>"
+    },
+    {
+      "seedType": 9,
+      "name": "Scaredy-shroom",
+      "introduce": "<size=24><color=#3D1400>\u0022Siapa di sana?\u0022 bisik Scaredy-shroom, suaranya nyaris tak terdengar. \u0022Pergi jauh-jauh. Aku tidak ingin melihat siapa pun. Kecuali kalau itu pria dari sirkus.\u0022</color></size>",
+      "info": "<size=24>Scaredy-shrooms adalah penembak jarak jauh yang bersembunyi saat musuh mendekat.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color></size>",
+      "cost": "<size=24>Biaya: <color=red>25</color>\nPengisian Ulang: <color=red>7.5 Detik</color></size>"
+    },
+    {
+      "seedType": 10,
+      "name": "Ice-shroom",
+      "introduce": "<size=24><color=#3D1400>Ice-shroom cemberut, bukan karena dia tidak bahagia atau tidak setuju, tetapi karena cedera masa kecil yang membuat saraf wajahnya lumpuh.</color></size>",
+      "info": "<size=24>Ice-shrooms sementara dapat melumpuhkan semua zombie di layar.\n\n<color=#3D1400>Kerusakan: </color><color=red>20</color>\n<color=#3D1400>Khusus: </color><color=red>Membekukan semua zombie di tempat.</color></size>",
+      "cost": "<size=24>Biaya: <color=red>75</color>\nPengisian Ulang: <color=red>50 Detik</color></size>"
+    },
+    {
+      "seedType": 11,
+      "name": "Doom-shroom",
+      "introduce": "<size=24><color=#3D1400>\u0022Kau beruntung aku ada di sisimu,\u0022 kata Doom-shroom. \u0022Aku bisa menghancurkan segalanya yang kau cintai. Itu tidak akan sulit.\u0022</color></size>",
+      "info": "<size=24>Doom-shrooms menghancurkan semuanya di area besar dan meninggalkan kawah yang tidak bisa ditanam.\n\n<color=#3D1400>Kerusakan: </color><color=red>1800 (Abu)</color>\n<color=#3D1400>Khusus: </color><color=red>Meninggalkan kawah.</color></size>",
+      "cost": "<size=24>Biaya: <color=red>125</color>\nPengisian Ulang: <color=red>50 Detik</color></size>"
+    },
+    {
+      "seedType": 12,
+      "name": "Lily Pad",
+      "introduce": "<size=24><color=#3D1400>Lily Pad tidak pernah mengeluh. Lily Pad tidak ingin tahu apa yang sedang terjadi. Letakkan tanaman di atas Lily Pad, dia tidak akan berkata apa-apa. Apakah dia punya pendapat mengejutkan atau rahasia yang mengejutkan? Tidak ada yang tahu. Lily Pad menyimpan semuanya di dalam.</color></size>",
+      "info": "<size=24>Lily Pads memungkinkan kamu menanam tanaman non-aquatik di atasnya.\n\n<color=#3D1400>Khusus: </color><color=red>Tanaman non-aquatik bisa ditanam di atasnya. Mengubah penampilan, tetapi tidak memberikan atribut tambahan.</color></size>",
+      "cost": "<size=24>Biaya: <color=red>25</color>\nPengisian Ulang: <color=red>7.5 Detik</color></size>"
+    },
+    {
+      "seedType": 13,
+      "name": "Squash",
+      "introduce": "<size=24><color=#3D1400>\u0022Aku siap!\u0022 teriak Squash. \u0022Ayo lakukan! Masukkan aku! Tidak ada yang lebih baik! Aku orangnya! Ayo! Kenapa kau menunggu? Aku butuh ini!\u0022</color></size>",
+      "info": "<size=24>Squashes akan menghancurkan zombie pertama yang mendekat.\n\n<color=#3D1400>Kerusakan: </color><color=red>1800</color></size>",
+      "cost": "<size=24>Biaya: <color=red>50</color>\nPengisian Ulang: <color=red>30 Detik</color></size>"
+    },
+    {
+      "seedType": 14,
+      "name": "Threepeater",
+      "introduce": "<size=24><color=#3D1400>Threepeater suka membaca, bermain backgammon, dan berdiam diri dalam waktu lama di taman. Threepeater menikmati menonton pertunjukan, terutama jazz modern. \u0022Aku hanya mencari seseorang yang istimewa,\u0022 katanya. Angka favorit Threepeater adalah 5.</color></size>",
+      "info": "<size=24>Threepeaters menembakkan kacang polong di tiga jalur.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*3/1.5 Detik</color></size>",
+      "cost": "<size=24>Biaya: <color=red>275</color>\nPengisian Ulang: <color=red>7.5 Detik</color></size>"
+    },
+    {
+      "seedType": 15,
+      "name": "Tangle Kelp",
+      "introduce": "<size=24><color=#3D1400>\u0022Aku benar-benar tak terlihat,\u0022 pikir Tangle Kelp dalam hati. \u0022Aku akan bersembunyi di sini tepat di bawah permukaan, dan tidak ada yang akan melihatku.\u0022 Teman-temannya bilang mereka bisa melihatnya dengan sangat baik, tapi dia tidak akan pernah berubah.</color></size>",
+      "info": "<size=24>Tangle Kelp adalah tanaman akuatik yang menarik zombie pertama yang mendekatinya ke dalam air.\n\n<color=#3D1400>Kerusakan: </color><color=red>Instant Kill</color></size>",
+      "cost": "<size=24>Biaya: <color=red>25</color>\nPengisian Ulang: <color=red>50 Detik</color></size>"
+    },
+    {
+      "seedType": 16,
+      "name": "Jalapeno",
+      "introduce": "<size=24><color=#3D1400>\u0022NNNNNGGGGG....\u0022 kata Jalapeno. Dia tidak akan meledak, tidak kali ini. Tapi segera. Oh, sangat segera. Ini dekat. Dia tahu itu; dia bisa merasakannya; seluruh hidupnya telah mengarah ke momen ini.</color></size>",
+      "info": "<size=24>Jalapenos menghancurkan satu baris zombie sepenuhnya.\n\n<color=#3D1400>Kerusakan: </color><color=red>1800 (Abu)</color></size>",
+      "cost": "<size=24>Biaya: <color=red>125</color>\nPengisian Ulang: <color=red>50 Detik</color></size>"
+    },
+    {
+      "seedType": 17,
+      "name": "Spikeweed",
+      "introduce": "<size=24><color=#3D1400>Hoki adalah obsesi Spikeweed. Dia memiliki tiket kursi box untuk musim. Dia selalu mencatat pemain favoritnya. Dan dia konsisten menang dalam pool hoki kantor. Hanya satu masalah: dia sangat takut pada puck.</color></size>",
+      "info": "<size=24>Spikeweeds merusak ban dan menyakiti zombie yang menginjaknya.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1 Detik</color>\n<color=#3D1400>Khusus: </color><color=red>Instant Kill pada Zombie Kendaraan</color></size>",
+      "cost": "<size=24>Biaya: <color=red>100</color>\nPengisian Ulang: <color=red>7.5 Detik</color></size>"
+    },
+    {
+      "seedType": 18,
+      "name": "Torchwood",
+      "introduce": "<size=24><color=#3D1400>Semua orang menyukai dan menghormati Torchwood. Mereka menyukainya karena integritasnya, persahabatan yang teguh, dan kemampuannya untuk meningkatkan kerusakan kacang polong dengan sangat baik. Tapi Torchwood punya rahasia: Dia tidak bisa membaca.</color></size>",
+      "info": "<size=24>Torchwoods mengubah kacang polong yang melewati mereka menjadi bola api yang memberikan dua kali lipat kerusakan.\n\n<color=#3D1400>Khusus: </color><color=red>Menyulut kacang polong yang melewati, meningkatkan kerusakannya.</color></size>",
+      "cost": "<size=24>Biaya: <color=red>175</color>\nPengisian Ulang: <color=red>7.5 Detik</color></size>"
+    },
+    {
+      "seedType": 19,
+      "name": "Sea-shroom",
+      "introduce": "<size=24><color=#3D1400>Sea-shroom belum pernah melihat laut. Ini ada di namanya, dia telah mendengar banyak tentangnya, tapi dia belum pernah menemukan waktu. Suatu hari, bagaimanapun, itu akan terjadi.</color></size>",
+      "info": "<size=24>Sea-shrooms adalah tanaman akuatik yang menembakkan spora jarak pendek.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color></size>",
+      "cost": "<size=24>Biaya: <color=red>0</color>\nPengisian Ulang: <color=red>7.5 Detik</color></size>"
+    },
+    {
+      "seedType": 20,
+      "name": "Plantern",
+      "introduce": "<size=24><color=#3D1400>Plantern menentang sains. Dia memang begitu. Tanaman lain memakan cahaya dan mengeluarkan oksigen; Plantern memakan kegelapan dan mengeluarkan cahaya. Plantern agak tertutup tentang bagaimana dia melakukannya. \u0022Aku tidak akan menyebutnya 'sihir,' aku tidak akan menggunakan istilah 'kekuatan gelap,' aku hanya... aku rasa aku sudah cukup bicara.\u0022</color></size>",
+      "info": "<size=24>Plantern menerangi area untuk membantumu melihat melalui kabut, dan memberikan level cahaya kepada tanaman.\n\n<color=#3D1400>Khusus: </color><color=red>Menghilangkan kabut dengan cahaya.</color>\n<color=#3D1400>Sistem Lumos: </color><color=red>Memberikan 1 Level Lumos dalam Grid 3x3, yang dapat ditumpuk untuk memberikan kekuatan pada tanaman cahaya lainnya. Lihat fusi untuk daftar tanaman yang terpengaruh.</color></size>",
+      "cost": "<size=24>Biaya: <color=red>25</color>\nPengisian Ulang: <color=red>15 Detik</color></size>"
+    },
+    {
+      "seedType": 21,
+      "name": "Kaktus",
+      "introduce": "<size=24><color=#3D1400>Dia memang berduri, tapi duri Kaktus menyembunyikan hati yang lembut dan penuh kasih sayang. Dia hanya ingin memeluk dan dipeluk. Kebanyakan orang tidak bisa menghadapi itu, tapi Kaktus tidak keberatan. Dia sudah menjalin hubungan dengan armadillo selama beberapa waktu, dan sepertinya semuanya berjalan dengan baik.</color></size>",
+      "info": "<size=24>Kaktus menembakkan duri yang bisa mengenai target darat dan udara.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color>\n<color=#3D1400>Khusus: </color><color=red>Dapat menyerang zombie terbang.</color></size>",
+      "cost": "<size=24>Biaya: <color=red>100</color>\nPengisian Ulang: <color=red>7.5 Detik</color></size>"
+    },
+    {
+      "seedType": 22,
+      "name": "Blover",
+      "introduce": "<size=24><color=#3D1400>Ketika Blover berumur lima tahun, dia mendapat kue ulang tahun yang baru mengkilap. Blover mengucapkan harapannya, menghembuskan napas, tapi hanya bisa memadamkan 60% lilin. Alih-alih menyerah, dia menggunakan kekalahan awal itu sebagai dorongan untuk mendorong dirinya lebih keras sejak saat itu.</color></size>",
+      "info": "<size=24>Blover menghembuskan semua zombie balon dan kabut, kecuali Zombie Bucket-copter dan Zomppelins.\n\n<color=#3D1400>Khusus: </color><color=red>Menghembuskan kabut dan Zombie Balon. Mendorong Zomppelins sedikit.</color></size>",
+      "cost": "<size=24>Biaya: <color=red>100</color>\nPengisian Ulang: <color=red>15 Detik</color></size>"
+    },
+    {
+      "seedType": 23,
+      "name": "Starfruit",
+      "introduce": "<size=24><color=#3D1400>\u0022Wah, man,\u0022 kata Starfruit. \u0022Aku pergi ke dokter gigi beberapa hari yang lalu, dan dia bilang aku punya empat gigi berlubang. Aku punya—hitung saja—SATU gigi! Empat gigi berlubang di satu gigi? Bagaimana ini bisa terjadi?\u0022</color></size>",
+      "info": "<size=24>Starfruits menembakkan bintang ke 5 arah.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*5/1.5 Detik</color></size>",
+      "cost": "<size=24>Biaya: <color=red>125</color>\nPengisian Ulang: <color=red>7.5 Detik</color></size>"
+    },
+    {
+      "seedType": 24,
+      "name": "Labu",
+      "introduce": "<size=24><color=#3D1400>Labu baru saja menyelesaikan pekerjaan paruh waktunya. \u0022Jujur, itu pengalaman yang cukup menyenangkan,\u0022 katanya sambil tertawa. \u0022Tapi bisakah seseorang menjelaskan mengapa mereka terus-menerus mengisi permen dan lilin ke dalam diriku?\u0022</color></size>",
+      "info": "<size=24>Labu melindungi tanaman yang ada di dalam cangkangnya.\n\n<color=#3D1400>Kekuatan: </color><color=red>4000</color>\n<color=#3D1400>Prioritas Fusi: </color><color=red>Terendah</color></size>",
+      "cost": "<size=24>Biaya: <color=red>125</color>\nPengisian Ulang: <color=red>30 Detik</color></size>"
+    },
+    {
+      "seedType": 25,
+      "name": "Magnet-shroom",
+      "introduce": "<size=24><color=#3D1400>Semua orang bertanya-tanya mengapa Magnet-shroom selalu memerlukan waktu lama untuk \u0022mencerna\u0022 besi yang dia serap, bahkan setelah besi itu diambil untuk fusi. Dengan frustrasi, dia berkata, \u0022Aku tidak malas! Aku hanya terjatuh karena besi terbang!\u0022</color></size>",
+      "info": "<size=24>Magnet-shrooms dapat menyerap benda logam.\n\n<color=#3D1400>Khusus: </color><color=red>Dapat menarik benda logam.</color>\nJika ada tanaman magnet di sekitar tanaman magnet lainnya dalam 8 arah, maka mereka terhubung melalui Sistem Magnetik. Sistem Magnetik tidak memiliki batasan jumlah koneksi, dan akan meningkatkan kekuatan beberapa tanaman magnet berdasarkan jumlahnya. Lihat fusi untuk daftar tanaman yang terpengaruh.</size>",
+      "cost": "<size=24>Biaya: <color=red>100</color>\nPengisian Ulang: <color=red>7.5 Detik</color></size>"
+    },
+    {
+      "seedType": 249,
+      "name": "<size=24>Starfruit Pendekar</size>",
+      "introduce": "<size=24><color=#3D1400>\u0022Aku telah berjuang di sepanjang 3.000 mil medan perang, pedangku menghentikan jutaan di jalannya.\u0022 Starfruit Pendekar, pecinta minuman berkualitas dan puisi, sangat bangga akan keterampilan cosplaynya yang sempurna. Dengan senyum licik, dia menambahkan, \u0022Pedangku tidak pernah berdarah, karena itu hanya dekorasi.\u0022</color></size>",
+      "info": "<size=24>Seorang tamu dari jauh, aku rasa kamu ingin berteman.\n\n<color=#3D1400>Kerusakan: </color><color=red>200*5+30*20/6 Detik</color>\n<color=#3D1400>Khusus: </color><color=red>Setiap serangan melepaskan 5 pedang yang menembus tanpa batas, memberikan 200 kerusakan setiap satu. Selain itu, menginfeksi 600 kerusakan pada semua zombie di grid sekitarnya, mengulangi ini sebanyak 20 kali.</color></size>",
+      "cost": "<size=24>Biaya: <color=red>325</color>\nPengisian Ulang: <color=red>30 Detik</color></size>"
+    },
+    {
+      "seedType": 250,
+      "name": "Kotak Hadiah Zombie",
+      "introduce": "<size=24><color=#3D1400>Memperkenalkan Kotak Hadiah Zombie—jalur masuk zombie ke dunia keuangan. Sebagai produk keuangan berisiko tinggi, dilengkapi dengan pengingat: \u0022Investasi membawa risiko inheren; lanjutkan dengan hati-hati. Disponsori oleh Dr. Yan Wang.\u0022 Informasi penting ini dengan cerdik disimpan di dalam tutup kotak.</color></size>",
+      "info": "<size=24>Dapatkan 100 Matahari, tetapi memunculkan Zombie Kotak Emas.\n\n<color=#3D1400>Khusus: </color><color=red>Memunculkan Zombie Kotak Emas.</color></size>",
+      "cost": "<size=24>Biaya: <color=red>-100</color>\nPengisian Ulang: <color=red>50 Detik</color></size>"
+    },
+    {
+      "seedType": 251,
+      "name": "APA INI 3",
+      "introduce": "<size=24><color=#3D1400>Ayah dan anak Kacang Matahari bilang bayar saya 500 Matahari, biar saya bantu mereka, jadi saya datang. Nggak susah-susah amat, kan? Masa harus terjun ke tumpukan zombie?</color></size>",
+      "info": "<size=24>Menghancurkan zombie.\n\n<color=#3D1400>Kerusakan: </color><color=red>1800</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 252,
+      "name": "Gadis Bulu",
+      "introduce": "<size=24><color=#3D1400>\u0022Kucing biasanya takut air, tapi aku gadis kucing ajaib, jadi aku tidak takut,\u0022 katanya dengan semangat, dan kucing-kucing lain memandangnya dengan kagum. Sebenarnya, dia sangat suka air, dan dia mengatakan ini agar terlihat menonjol.</color></size>",
+      "info": "<size=24>Gadis Bulu akan otomatis menyerang semua zombie yang muncul di peta.\n\n<color=#3D1400>Kerusakan: </color><color=red>40*2/1.5 Detik</color></size>",
+      "cost": "<size=24>Biaya: <color=red>125</color>\nPengisian Ulang: <color=red>50 Detik</color></size>"
+    },
+    {
+      "seedType": 253,
+      "name": "Barley",
+      "introduce": "<size=24><color=#3D1400>Barley menyebut dirinya sebagai seorang generalis, tapi tanaman lain menganggapnya hanya sebagai figuran — \u0022Bagaimanapun juga, tanaman lain selalu melakukan pekerjaan, kan?\u0022</color></size>",
+      "info": "<size=24>Barley bisa berubah menjadi tanaman dasar, fusi, atau ultimate.\n\n<color=#3D1400>Khusus: </color><color=red>Berubah menjadi tanaman acak setiap 30 detik.</color></size>",
+      "cost": "<size=24>Biaya: <color=red>50</color>\nPengisian Ulang: <color=red>30 Detik</color></size>"
+    },
+    {
+      "seedType": 254,
+      "name": "Endoflame",
+      "introduce": "<size=24><color=#3D1400>Dikatakan bahwa bunga kecil seperti dia tidak pernah bermimpi untuk memproduksi Matahari — Endoflame awalnya ingin melamar sebagai Bunga Matahari, tetapi dia menyadari bahwa cahayanya hanya bersinar ketika dia dihancurkan. Semua orang bilang bahwa api di atas kepalanya adalah yang paling terang, tapi dia tahu bahwa matanya yang menyala penuh tekad adalah sumber kekuatannya.</color></size>",
+      "info": "<size=24>Endoflame dapat menyerap peluru dan memproduksi Matahari.\n\n<color=#3D1400>Khusus: </color><color=red>Setiap peluru dapat mengurangi ketahanan sebesar 50 dan menghasilkan 25 Matahari. Menghasilkan Pupuk saat mati.</color></size>",
+      "cost": "<size=24>Biaya: <color=red>125</color>\nPengisian Ulang: <color=red>50 Detik</color></size>"
+    },
+    {
+      "seedType": 255,
+      "name": "Giant Wall-nut",
+      "introduce": "<size=24><color=#3D1400>\u0022Aku tak terkalahkan di medan perang, dan rekan-rekanku tak bisa mengalihkan pandangan dari sosokku yang megah!\u0022 raja Kacang Besar membanggakan. \u0022Setahun setelah diusir dari Klub Kacang Tumbler, akhirnya aku menemukan pekerjaan yang benar-benar cocok untukku.\u0022</color></size>",
+      "info": "<size=24>Kacang Besar akan menggulingkan dirinya ke depan dan menjatuhkan zombie yang dia temui.\n\n<color=#3D1400>Kerusakan: </color><color=red>1800</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 256,
+      "name": "Kotak Hadiah Tanaman",
+      "introduce": "<size=24><color=#3D1400>Tidak ada yang mengerti mengapa Kotak Hadiah Tanaman bertarung bersama tanaman melawan zombie. Dia tidak terlihat seperti tanaman sama sekali, tetapi sepertinya dia tahu semua kemampuan tanaman dengan baik. \u0022Sebenarnya, aku hanya mahasiswa yang menyukai video game,\u0022 dia mengakui sambil tersenyum. \u0022Profesor bilang ada kredit tambahan, jadi aku di sini.\u0022</color></size>",
+      "info": "<size=24>Kotak Hadiah Tanaman dapat ditanam untuk memproduksi tanaman atau fusi acak.\n\n<color=#3D1400>Khusus: </color><color=red>Ketika ditempatkan di tanah atau di atas Lily Pad, memproduksi tanaman acak. Menempatkannya di atas tanaman yang memenuhi syarat dapat menghasilkan fusi acak.</color></size>",
+      "cost": "<size=24>Biaya: <color=red>100</color>\nPengisian Ulang: <color=red>15 Detik</color></size>"
+    },
+    {
+      "seedType": 900,
+      "name": "Empress-shroom",
+      "introduce": "<size=24><color=#3D1400>Empress-shroom sangat mencintai bawahannya yang berupa zombie. \u0022Mereka berkontribusi besar pada kebangkitanku sebagai seorang Ratu,\u0022 dia mengungkapkan. Sayangnya, zombie-zombie kuat ini menimbulkan ketakutan pada tanaman lain, sesuatu yang sama sekali tidak disadari oleh Empress-shroom.</color></size>",
+      "info": "<size=24>Menyummon zombie yang akan bertarung untukmu.\n\n<color=#3D1400>Khusus: </color><color=red>Secara acak memilih 1 dari zombie berikut untuk disummon:\nZombie Kacang Rugby | Zombie Koran Cherryshooter | Zomboni | Zombie Sarjana</color>\n<color=#3D1400>Formula Fusi:\n</color><color=red>Hypno-shroom + Hypno-shroom</color></size>",
+      "cost": "<size=24><color=purple>Persyaratan Penggunaan: Mode Perjalanan</color></size>"
+    },
+    {
+      "seedType": 901,
+      "name": "<size=29>Gatling Cherrybomber",
+      "introduce": "<size=24><color=#3D1400>\u0022Saya tidak tahu mengapa Kacang Gatling punya banyak penggemar. Kakak dan saya juga bisa menembakkan empat peluru,\u0022 komentar Gatling Cherrybomber dengan cemburu. Namun, kenyataannya semua orang menghargai Kacang Gatling karena kebaikan dan bakat kulinernya yang luar biasa.</color></size>",
+      "info": "<size=24>Gatling Cherrybomber adalah penghasil kerusakan terkuat di darat.\n\n<color=#3D1400>Kerusakan: </color><color=red>300*4/1.5 Detik</color>\n<color=#3D1400>Formula Fusi:\n</color><color=red>Gatling Cherry + Explodoshooter</color></size>",
+      "cost": "<size=24><color=purple>Persyaratan Penggunaan: Mode Perjalanan</color></size>"
+    },
+    {
+      "seedType": 902,
+      "name": "<size=32>Squash Infernowood",
+      "introduce": "<size=24><color=#3D1400>Squash Infernowood sangat mengagumi dirinya sendiri, tetapi tanaman lain memandangnya dengan sinis, terutama yang dari keluarga kacang. \u0022Dia terlalu pilih-pilih! Dia memiliki kekuatan yang kuat, tetapi itu hanya menguntungkan ceri,\u0022 kata mereka. Ini membuat Squash Infernowood marah. \u0022Saya hanya alergi pada kacang…\u0022</color></size>",
+      "info": "<size=24>Memunculkan Squash Pedas untuk setiap 20 ceri yang lewat.\n\n<color=#3D1400>Khusus: </color><color=red>Peluru bom ceri yang melewatinya menjadi squash pedas yang melompat-lompat dan meledak setelah setiap pantulan. Setelah 20 peluru tersebut lewat, memunculkan Squash Pedas di depan.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Pyrewood + Squash Pedas</color></size>",
+      "cost": "<size=24><color=purple>Persyaratan Penggunaan: Mode Perjalanan</color></size>"
+    },
+    {
+      "seedType": 903,
+      "name": "Cherrizilla",
+      "introduce": "<size=24><color=#3D1400>Cherrizilla dengan bangga berkata, \u0022Banyak yang iri dengan gaya rambutnya yang mirip dinosaurus.\u0022 Sebagai sosok publik, dia memperhatikan citranya: \u0022Mengeluarkan ceri dan memakan zombie itu menjijikkan, tapi itu tugasku.\u0022</color></size>",
+      "info": "<size=24>Cherrizilla adalah tanaman defensif utama di darat.\n\n<color=#3D1400>Ketahanan: </color><color=red>8000</color>\n<color=#3D1400>Khusus: </color><color=red>Memakan zombie mengembalikan 1000 Ketahanan, memberikan 1000 kerusakan, dan mengeluarkan ceri yang meledak. Zombie dengan HP < 2000 akan mati instan dan mengembalikan penuh Ketahanan ke Cherrizilla. Menolak kendaraan kembali, menerima paling banyak 1/3 dari ketahanan maksimumnya.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Chewzilla + Cherry Chomper</color></size>",
+      "cost": "<size=24><color=purple>Persyaratan Penggunaan: Mode Perjalanan</color></size>"
+    },
+    {
+      "seedType": 904,
+      "name": "Emperor-shroom",
+      "introduce": "<size=24><color=#3D1400>Apakah Kematian akan mempekerjakan konsultan mode? King-shroom tidak tahu, tetapi setelah menyadari bahwa dia tidak bisa menakut-nakuti zombie secara konsisten, dia beralih ke Hypno-shroom untuk desain mode khusus. Meskipun orang mungkin tidak menyukai Kematian, bagaimana jika dia mengenakan sayap es ungu yang berkilauan?</color></size>",
+      "info": "<size=24>Emperor-shroom memberikan kerusakan besar, sekaligus mempesona dan memperlambat zombie.\n\n<color=#3D1400>Khusus: </color><color=red>Memiliki kemungkinan untuk mempesona zombie dengan HP < 50%, menciptakan ledakan di kotak tempat zombie yang terpesona berada dengan 500 kerusakan.</color>\n<color=#3D1400>Formula Fusi:\n</color><color=red>Doomberg-shroom + Charm-shroom</color></size>",
+      "cost": "\n<size=24><color=purple>Persyaratan Penggunaan: Mode Perjalanan</color></size>"
+    },
+    {
+      "seedType": 905,
+      "name": "Sun Emperor",
+      "introduce": "<size=24><color=#3D1400>Sun Emperor, seorang master fotosintesis, merevolusi konversi energi cahaya-massa, meminimalkan kehilangan energi melalui daur ulang. Dia dengan rendah hati mengakui pelopor seperti Bunga Matahari, Sun-shroom, dan Endoflame: \u0022Saya hanya berdiri di atas bahu raksasa.\u0022</color></size>",
+      "info": "<size=24>Sun Emperor memproduksi Matahari setiap kali ia terluka.\n\n<color=#3D1400>Ketahanan: </color><color=red>4000</color>\n<color=#3D1400>Khusus: </color><color=red>Terlepas dari jenis kerusakan yang diterima, setiap serangan padanya hanya akan mengurangi 50 Ketahanan. Memproduksi 15 Matahari setelah setiap serangan. Mengklik mouse di atasnya akan mengonsumsi 500 Matahari dan menyebabkan Kacang Raksasa mengguling ke bawah, juga mengembalikan Ketahanan ke penuh dalam prosesnya.</color>\n<color=#3D1400>Formula Fusi:\n</color><color=red>(Bunga Matahari + Wall-nut) + Wall-nut</color></size>",
+      "cost": "\n<size=24><color=purple>Persyaratan Penggunaan: Mode Perjalanan</color></size>"
+    },
+    {
+      "seedType": 906,
+      "name": "Spikesidian",
+      "introduce": "<size=24><color=#3D1400>Setelah dibaptis oleh api dan es, Spikesidian menjadi sekeras baja, tetapi wataknya juga menjadi tidak stabil. Perubahan ini mungkin disebabkan oleh baja yang mengkristal di mulutnya, membuatnya enggan untuk berbicara.</color></size>",
+      "info": "<size=24>Spikesidian dapat memberikan kerusakan besar sekaligus bertahan dari banyak serangan.\n\n<color=#3D1400>Ketahanan: </color><color=red>6000</color>\n<color=#3D1400>Kerusakan: </color><color=red>100*2/1 Detik</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Spikecicle + Spikinferno</color></size>",
+      "cost": "<size=24><color=purple>Persyaratan Penggunaan: Mode Perjalanan</color></size>"
+    },
+    {
+      "seedType": 907,
+      "name": "Gatling Doom",
+      "introduce": "<size=24><color=#3D1400>\u0022Gatling Doom berbahaya dan sebaiknya tidak didekati. Ini adalah kekuatan terlarang di dunia.\u0022 Meski cerita menakutkan beredar di antara tanaman, Gatling Doom tidak seperti yang terlihat. Sebenarnya, dia adalah salah satu tanaman yang paling ramah. Namun, zombie-zombie yang berubah menjadi abu akan berbeda pendapat.</color></size>",
+      "info": "<size=24>Hancuran yang menjelma. Menembakkan peluru kehancuran kepada yang malang yang berhadapan dengan kemarahannya.\n\n<color=#3D1400>Kerusakan: </color><color=red>300*4/1.5 Detik</color>\n<color=#3D1400>Khusus: </color><color=red>Menembakkan peluru kehancuran yang memberikan 1800 kerusakan setiap 4 peluru. Setiap peluru akan memberikan kerusakan splash di area yang luas.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Gatling Pea + Doom-shroom</color></size>",
+      "cost": "<size=24><color=purple>Persyaratan Penggunaan: Mode Perjalanan</color></size>"
+    },
+    {
+      "seedType": 908,
+      "name": "<size=30>Gatling Icicle-shroom",
+      "introduce": "<size=24><color=#3D1400>Puff-shroom kecil yang dulu berteriak, \u0022Kami akan bergabung dengan angkatan bersenjata!\u0022 kini telah menjadi veteran dengan tatapan tegas. Di mana pun dan kapan pun, Perusahaan Gatling Icicle-shroom berkomitmen untuk memastikan misi diselesaikan.</color></size>",
+      "info": "<size=24>Dapat ditumpuk hingga tiga kali untuk menembakkan 12 icicle sekaligus!\n\n<color=#3D1400>Kerusakan: </color><color=red>20*4*3/1,5 Detik</color>\n<color=#3D1400>Sistem Cryo: </color><color=red>Setiap hit menambah 5 Poin Cryo. Peluru memberikan 4 kali lebih banyak kerusakan pada musuh yang beku. Setiap peluru dapat menembus hingga 3 kali.</color>\n<color=#3D1400>Formula Fusi:\n</color><color=red>Puff-shroom + Gatling Snow (Secara Urut)</color></size>",
+      "cost": "<size=24><color=purple>Persyaratan Penggunaan: Mode Perjalanan</color></size>"
+    },
+    {
+      "seedType": 909,
+      "name": "Star Emperor",
+      "introduce": "<size=24><color=#3D1400>Tidak ada yang tahu dari mana Star Emperor berasal, tetapi satu hal pasti: Dia tidak bertanggung jawab atas dinosaurus. Sama sekali tidak!</color></size>",
+      "info": "<size=24>Apa-apaan meteor di halaman saya ini!?\n\n<color=#3D1400>Kerusakan: </color><color=red>20*5/1,5 Detik</color>\n<color=#3D1400>Sistem Lumos: </color><color=red>Setiap tingkat Lumos akan meningkatkan kerusakan peluru sebesar 20.</color>\n<color=#3D1400>Sistem Magnetik: </color><color=red>Setiap tanaman yang terhubung ke Sistem Magnetik akan meningkatkan kerusakan peluru sebesar 5%.\n<color=purple>Kedua sistem dapat meningkatkan kerusakan peluru hingga 120, maksimum.</color>\n<color=#3D1400>Khusus: </color><color=red>Memanggil meteor setiap 20 detik, memberikan 1800 kerusakan saat jatuh. Meteor itu pecah menjadi beberapa peluru yang mengincar zombie dan memberikan 100 kerusakan masing-masing.</color></color>\n<color=#3D1400>Formula Fusi: </color><color=red>Starlure + Magcactus</color></size>",
+      "cost": "\n<size=24><color=purple>Persyaratan Penggunaan: Mode Perjalanan</color></size>"
+    },
+    {
+      "seedType": 910,
+      "name": "Ultima-shroom",
+      "introduce": "<size=24><color=#3D1400>\u0022Deterrence nuklir itu menguntungkan. Suatu hari, zombie akan berhenti menyerang karena takut pada diri saya yang dapat meledak dengan sangat hebat,\u0022 kata Ultima-shroom dengan percaya diri. Namun, jelas bahwa Ultima-shroom tidak mengerti bahwa zombie tidak akan memulai Perang Dingin hanya karena mereka terkena udara dingin.</color></size>",
+      "info": "<size=24>Menyemprotkan uap beracun di sekelilingnya, membawa kehancuran yang ultimate. Hati-hati!\n\n<color=#3D1400>Kerusakan: </color><color=red>(100+100*8)*4/1,9 Detik</color>\n<color=#3D1400>Jarak Kerusakan: </color><color=red>5*5</color>\n<color=#3D1400>Jarak Pencarian：</color><color=red>5*3</color>\n<color=#3D1400>Formula Fusi:\n</color><color=red>Doomberg-shroom + Cryogloom-shroom</color></size>",
+      "cost": "<size=24><color=purple>Persyaratan Penggunaan: Mode Perjalanan</color></size>"
+    },
+    {
+      "seedType": 911,
+      "name": "Laser Pumpkin",
+      "introduce": "<size=24><color=#3D1400>\u0022Kekuatan Magnet-shroom tetap berlebihan. Lagipula, armor komposit, katapel elektromagnetik, dan senapan plasma adalah inovasi yang dikembangkan hampir satu abad setelah kapal induk pertama kali diperkenalkan,\u0022 kata Laser Pumpkin. Tanaman lain iri dengan perlengkapan sci-fi Laser Pumpkin, tetapi hanya Magnet-shroom yang tahu bahwa dia sebenarnya hanya terkena meteor dari Star Emperor.</color></size>",
+      "info": "<size=24>Memunculkan drone laser yang mengincar musuh.\n\n<color=#3D1400>Ketahanan: </color><color=red>8000</color>\n<color=#3D1400>Khusus: </color><color=red>Selalu memiliki teman Laser Drone saat muncul. Secara teratur menghasilkan Laser Drone di atas grid 3x3.</color>\n<color=#3D1400>Formula Fusi:\n</color><color=red>Bloverthorn Pumpkin + Magblover</color></size>",
+      "cost": "\n<size=24><color=purple>Persyaratan Penggunaan: Mode Perjalanan</color></size>"
+    },
+    {
+      "seedType": 912,
+      "name": "DIMANA INI",
+      "introduce": "<size=24><color=#3D1400>Terima kasih kepada Ultimate Starfruit, sekarang kami memiliki seluruh rangkaian peralatan baru! Lihatlah barang-barang aneh ini: pelindung komposit, rotor elektromagnetik berkecepatan tinggi, dan meriam plasma... Tunggu! Tidak! Vas bunga kesayangan saya!</color></size>",
+      "info": "<size=24>Drone laser dapat meluncurkan serangan laser yang menembus.\n\n<color=#3D1400>Kerusakan: </color><color=red>200/1,5 Detik (sebagai tanaman) 200/1 Detik (sebagai drone pendukung)</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 913,
+      "name": "Obsidian-nut",
+      "introduce": "<size=24><color=#3D1400>Daripada mencari perlindungan dari sahabat terbaiknya, tanaman ini lebih memilih untuk melindunginya. Tubuhnya yang keras, seperti permata, dan bercahaya, bersama dengan matanya yang teguh, dibentuk oleh jiwa Obsidian-nut setelah menjalani ujian es dan api yang terukir dalam tulangnya. Meskipun tubuh dan jiwanya akan menjadi lelah suatu hari nanti, ia berkomitmen untuk melakukan apa pun demi menjaga tanaman lain tetap aman.</color></size></size>",
+      "info": "<size=24>Obsidian-nut memiliki pertahanan empat kali lipat dari Tall-Nut biasa.\n\n<color=#3D1400>Ketahanan: </color><color=red>32000</color>\n<color=#3D1400>Khusus: </color><color=red>1500 HP setiap 15 detik. Menolak digilas oleh mobil, menerima maksimal 200 kerusakan setiap kali.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Frost-nut + Scorch-nut</color></size>",
+      "cost": "\n<size=24><color=purple>Persyaratan Penggunaan: Mode Perjalanan</color></size>"
+    },
+    {
+      "seedType": 1000,
+      "name": "Pea Sunflower",
+      "introduce": "<size=24><color=#3D1400>\u0022Sebenarnya, Bunga Matahari di belakangku adalah saudariku,\u0022 jelas Pea Sunflower kepada semua orang. \u0022Kami sudah tak terpisahkan sejak lahir. Dia suka menghasilkan Matahari, dan aku menghancurkan zombie atas namanya.\u0022 Tapi semua orang tahu kebenarannya: si Pea yang ceria adalah seorang siscon sejati. Bagaimanapun, setiap zombie yang mendekat saudarinya secara misterius berakhir menguap oleh sinar matahari.</color></size>",
+      "info": "<size=24>Pea Sunflower dapat menembakkan Peluru Matahari yang menghasilkan Matahari.\n\n<color=#3D1400>Kerusakan: </color><color=red>100/5 Detik</color>\n<color=#3D1400>Khusus: </color>\n<color=red>Peluru menjatuhkan 5 Matahari saat mengenai zombie.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Peashooter + Bunga Matahari</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1001,
+      "name": "Cherryshooter",
+      "introduce": "<size=24><color=#3D1400>\u0022Masalah kemarahan yang membara? Saya? Hah! Kamu merah dan panas! Seluruh keluargamu merah!\u0022 Cherry Shooter membenci digoda tentang warna kepalanya. Tapi lelucon itu tidak bertahan lama—setelah memakan ceri khusus, Pea Shooter memang berubah menjadi merah dan hangat, dan ya, dia bisa menembakkan peluru ceri.</color></size>",
+      "info": "<size=24>Cherryshooter menembakkan peluru ceri yang kuat.\n\n<color=#3D1400>Kerusakan: </color><color=red>60/1,5 Detik</color>\n<color=#3D1400>Formula Penggabungan: </color><color=red>Peashooter + Cherry Bomb</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1002,
+      "name": "Sun Bomb",
+      "introduce": "<size=24><color=#3D1400>\u0022Jadi... ini jelas... kami Pretty Cure, kan?\u0022 Dua saudari Sunflower mencoba menahan semangat mereka. \u0022Dunia membutuhkan kami untuk menyelamatkannya!\u0022 Semangat mereka meluap saat mereka berteriak bersama, \u0022Cahaya! Terangi tanah ini!\u0022</color></size>",
+      "info": "<size=24>Sun Bomb dapat memproduksi Matahari setelah membunuh zombie.\n\n<color=#3D1400>Kerusakan: </color><color=red>1800 (Abu)</color>\n<color=#3D1400>Spesial: </color><color=red>Memproduksi 25 Matahari untuk setiap zombie yang dibunuh dalam ledakan.</color>\n<color=#3D1400>Formula Penggabungan: </color><color=red>Sunflower + Cherry Bomb</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1003,
+      "name": "Cherry-nut",
+      "introduce": "<size=24><color=#3D1400>\u0022Saya mendengar beberapa zombie menggerutu tentang ketidakmampuan mereka untuk memakan ceri. Nah, inilah saya!\u0022 Cherry Nut yang ceria menggoyangkan daun di atas kepalanya, membanggakan rasa ceri murninya. \u0022Tapi pertama, kamu harus menjanjikan sesuatu: ketika kamu memiliki ceri, bagikan sedikit padaku. Sebenarnya, berikan semuanya padaku! Saya terlahir untuk ini!\u0022</color></size>",
+      "info": "<size=24>Cherry-nut dapat menyerap kerusakan ledakan dan memulihkan ketahanan.\n\n<color=#3D1400>Ketahanan: </color><color=red>4000</color>\n<color=#3D1400>Spesial: </color><color=red>Menyerap kerusakan ledakan Ceri untuk memulihkan ketahanan. (Dari Sekutu: 25, Dari Musuh: 200)</color>\n<color=#3D1400>Formula Penggabungan: </color><color=red>Cherry Bomb + Wall-nut</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1004,
+      "name": "Pea-nut",
+      "introduce": "<size=24><color=#3D1400>\u0022Tidak... jangan panggil saya jelek, atau... tunggu... saya akan menyemprot kamu.\u0022 Pea-nut selalu berjuang dengan penampilannya yang \u0022unik\u0022. Tapi dia yakin bahwa yang ada di dalam tanaman lebih penting daripada penampilannya. Mencari bimbingan, dia dengan rendah hati meminta saran kepada Bowling Nut yang lebih senior dan akhirnya menguasai teknik menggulung kacang seperti bola bowling.</color></size>",
+      "info": "<size=24>Pea-nut menembakkan peluru mini-kacang yang dapat menembus zombie.\n\n<color=#3D1400>Ketahanan: </color><color=red>4000</color>\n<color=#3D1400>Kerusakan: </color><color=red>20/1,5 Detik (Menembus)</color>\n<color=#3D1400>Formula Penggabungan: </color><color=red>Peashooter + Wall-nut</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1005,
+      "name": "Explodoshooter",
+      "introduce": "<size=24><color=#3D1400>Temui Explodoshooter, pembunuh tanaman terbaik. Dia lebih mudah marah daripada sebelumnya—siapa sangka Cherryshooter yang hangat dan ramah akan menelan ceri khusus lainnya? Jangan coba-coba dengan dia. Ceri yang terjebak di tenggorokannya mungkin menjadi tembakan berikutnya—wajahnya sudah mulai memerah!</color></size>",
+      "info": "<size=24>Peluru yang ditembakkan oleh Explodoshooter akan menyebabkan kerusakan ledakan area.\n\n<color=#3D1400>Kerusakan: </color><color=red>300/3 Detik</color>\n<color=#3D1400>Formula Penggabungan: </color><color=red>Peashooter + Cherry Bomb + Cherry Bomb</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1006,
+      "name": "Solar-nut",
+      "introduce": "<size=24><color=#3D1400>Solar-nut selalu melihat dirinya sebagai malaikat, tidak menyadari bahwa tanaman lain sering berbicara di belakangnya. \u0022Jika dia menambahkan beberapa garis hitam, dia akan terlihat persis seperti lebah.\u0022</color></size>",
+      "info": "<size=24>Solar-nut memproduksi Matahari sambil melindungi tanamanmu.\n\n<color=#3D1400>Ketahanan: </color><color=red>4000</color>\n<color=#3D1400>Produksi Matahari: </color><color=red>25/15 Detik</color>\n<color=#3D1400>Formula Penggabungan: </color><color=red>Sunflower + Wall-nut</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1007,
+      "name": "Pea-mine",
+      "introduce": "<size=24><color=#3D1400>Pea Mine mungkin tidak memiliki mata, tetapi dia memiliki cara khusus untuk merasakan zombie. \u0022Saya merasakannya…\u0022 gumamnya, \u0022Zombie semakin mendekat… semakin dekat… semakin dekat…\u0022 Detak jantung Pea Mine semakin cepat, begitu juga dengan kecepatan tembaknya. Lebih cepat, lebih cepat… sampai, dengan sebuah \u0022boom,\u0022 Pea Mine meledak menjadi semburan kembang api berasa kentang.</color></size>",
+      "info": "<size=24>Pea Mine dapat menyerang sebelum terungkap.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1,5 Detik</color>\n<color=#3D1400>Spesial: </color><color=red>Ketika meledak, melepaskan 36 peluru ke segala arah.</color>\n<color=#3D1400>Formula Penggabungan: </color><color=red>Peashooter + Potato Mine</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1008,
+      "name": "Cherrypeater",
+      "introduce": "<size=24><color=#3D1400>Cherrypeater hidup dengan moto \u0022hal baik datang berpasangan.\u0022 Baik saat melawan zombie maupun membagikan hadiah, semua dilakukannya berdua. \u0022Tapi ayolah,\u0022 sindir Repeater, \u0022cerry-cerry kamu itu belum matang sama sekali.\u0022</color></size>",
+      "info": "<size=24>Cherrypeater bisa menembakkan dua ceri sekaligus.\n\n<color=#3D1400>Kerusakan: </color><color=red>60*2/1.5 Detik</color>\n<color=#3D1400>Formula Gabungan: </color><color=red>Repeater + Cherry Bomb</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1009,
+      "name": "Sun-mine",
+      "introduce": "<size=24><color=#3D1400>\u0022Berhenti di lampu merah, pelankan di lampu kuning, dan patuhi aturan lalu lintas!\u0022 Sun Mine sering memperingatkan zombie. Tapi bagi zombie, yang mereka lihat hanyalah warna hijau menjijikan di depan mereka. Dia memegang daun hijau dan cemberut, berharap mendapatkan lebih banyak sinar matahari. \u0022Bagaimanapun, sinar matahari adalah bahan bakar kita semua!\u0022</color></size>",
+      "info": "<size=24>Sun Mine menghasilkan Sinar sampai dan setelah ledakannya.\n\n<color=#3D1400>Kerusakan: </color><color=red>1800</color>\n<color=#3D1400>Output Sinar: </color><color=red>25/15 Detik</color>\n<color=#3D1400>Formula Gabungan: </color><color=red>Sunflower + Potato Mine</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1010,
+      "name": "Mine-nut",
+      "introduce": "<size=24><color=#3D1400>Dulu dianggap kecil dan lemah, Mine-nut kini berdiri tegak dan kuat, dengan sepasang mata besar dan daging yang kokoh. Namun di balik penampilan kuat itu, dia merasa rapuh dan takut kembali ke ukuran semula. Zombie berkomentar, \u0022Jika kamu menggigit lagi, kamu akan meledak!\u0022</color></size>",
+      "info": "<size=24>Mine-nut bisa meledak saat dimakan dan sekali lagi saat rusak.\n\n<color=#3D1400>Kekuatan: </color><color=red>4000</color>\n<color=#3D1400>Kerusakan: </color><color=red>500 / Ledakan, 1800 / Kematian</color>\n<color=#3D1400>Formula Gabungan: </color><color=red>Wall-nut + Potato Mine</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1011,
+      "name": "Chomp-shooter",
+      "introduce": "<size=24><color=#3D1400>Chomper selalu iri dengan kemampuan Chomp-shooter untuk meludahkan sisa-sisa zombie, dan dia sudah mencoba mempelajari trik itu lebih dari sekali. Namun dia tidak tahu, bahwa rahasianya bukanlah keterampilan khusus—hanya saja mulut Chomp-shooter sedikit cacat, sehingga potongan zombie bocor saat dia mengunyah.</color></size>",
+      "info": "<size=24>Chomp-shooter bisa menembakkan peluru setelah menggigit.\n\n<color=#3D1400>Kerusakan: </color><color=red> Pembunuhan Instan</color>\n<color=#3D1400>Spesial: </color><color=red>Meludahkan peluru tajam setelah menggigit yang menyebabkan 80 kerusakan.</color>\n<color=#3D1400>Formula Gabungan: </color><color=red>Peashooter + Chomper</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1012,
+      "name": "Chomp-nut",
+      "introduce": "<size=24><color=#3D1400>Sebagai tanaman muda, Chomp-nut dikenal sangat pilih-pilih soal makanan, tidak pernah menelan zombie dalam satu gigitan, yang membuat orang tuanya frustrasi. Setelah banyak bujukan, Chomp-nut akhirnya belajar untuk menghabiskan zombie utuh, seperti pendahulunya. \u0022Aku bukan pilih-pilih! Aku hanya ingin meniru bagaimana zombie makan. Aku harus mencoba sesuatu yang baru, kan? Ini pasti bukan karena aku tidak punya leher, sehingga sulit menelan dalam satu gigitan,\u0022 kata Chomp-nut sambil mengunyah zombie.</color></size>",
+      "info": "<size=24>Chomp-nut dapat memulihkan kekuatan setelah memakan zombie.\n\n<color=#3D1400>Kerusakan: </color><color=red> Pembunuhan Instan</color>\n<color=#3D1400>Kekuatan: </color><color=red>4000</color>\n<color=#3D1400>Formula Gabungan: </color><color=red>Wall-nut + Chomper</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1013,
+      "name": "Chewzilla",
+      "introduce": "<size=24><color=#3D1400>Chewzilla menikmati setiap santapan, meskipun mulutnya lebih kecil. \u0022Mulut besar itu ceroboh dan tidak berolahraga; mereka mudah hancur di garis depan,\u0022 ejeknya. \u0022Aku hanya memakan esensi daging zombie dan meludahkan sisanya,\u0022 dia tersenyum, meskipun halamannya mulai penuh dengan sisa makanan.</color></size>",
+      "info": "<size=24>Chewzilla bisa jadi perisai dan penyerang yang tangguh.\n\n<color=#3D1400>Kekuatan: </color><color=red>4000</color>\n<color=#3D1400>Spesial: </color><color=red>Memakan zombie memulihkan 100 Kekuatan dan memberikan 200 Kerusakan sambil meludahkan peluru bergulir yang menyebabkan 80 Kerusakan dan menembus tanpa batas. Zombie dengan HP < 500 dan tanpa armor akan dibunuh langsung, memulihkan 200 Kekuatan dan memunculkan peluru yang menyebabkan 20 Kerusakan, menembus 5 kali, dan mendorong zombie.</color>\n<color=#3D1400>Formula Gabungan: </color><color=red>Peashooter + Wall-nut + Chomper</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1014,
+      "name": "Sun Chomper",
+      "introduce": "<size=24><color=#3D1400>Semua orang penasaran bagaimana Sun Chomper mengubah zombie yang ditelannya menjadi sinar matahari, tetapi dia selalu ragu untuk berbagi rahasianya. Suatu hari, Sunflower menemukan bahwa kandungan klorofilnya telah berkurang secara signifikan, mengungkapkan kebenaran: dia sebenarnya tidak mengubah zombie menjadi sinar matahari.</color></size>",
+      "info": "<size=24>Sun Chomper bisa menghasilkan Sinar setelah menelan zombie.\n\n<color=#3D1400>Kerusakan: </color><color=red> Pembunuhan Instan</color>\n<color=#3D1400>Spesial: </color>\n<color=red>Menghasilkan 100 Sinar setelah menelan zombie.</color>\n<color=#3D1400>Formula Gabungan: </color><color=red>Sunflower + Chomper</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1015,
+      "name": "Chomp-mine",
+      "introduce": "<size=24><color=#3D1400>Lezat dan menggoda, Potato Mines rasanya seperti kentang tumbuk yang bisa menghangatkan diri sendiri, membuat zombie jatuh cinta. Di antara mereka, kentang goreng menjadi yang paling populer. Saat zombie berbondong-bondong menuju aroma kentang goreng yang menggoda, mereka tidak sadar bahwa mereka juga menikmati keripik kentang yang lezat. \u0022Tunggu saja,\u0022 kata Chomp-mine sambil mengunyah, \u0022Nutrisi mereka segera akan menjadi tambang baru.\u0022</color></size>",
+      "info": "<size=24>Setelah menelan zombie, Chomp-mine akan menumbuhkan Potato Mines di depannya.\n\n<color=#3D1400>Kerusakan: </color><color=red> Sekali Bunuh</color>\n<color=#3D1400>Spesial: </color><color=red>Menanam Potato Mine di depan setelah menelan zombie.</color>\n<color=#3D1400>Formula Gabungan: </color><color=red>Potato Mine + Chomper</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1016,
+      "name": "Cherry Chomper",
+      "introduce": "<size=24><color=#3D1400>Sejak minum dengan Cherry Bomb, Chomper terus \u0022bergetar.\u0022 \u0022Coba ini!\u0022 menjadi mantra barunya sebelum setiap makanan. Suara mengunyahnya berubah menjadi ledakan saat piring dan mangkuk terbang ke mana-mana, membuat semua orang enggan makan bersamanya. Setelah voting, Cherry Chomper akhirnya makan di halaman. Kini, dia menemukan hiburan pada zombie, berteriak \u0022Coba ini!\u0022—setidaknya dia tidak perlu membeli peralatan makan baru.</color></size>",
+      "info": "<size=24>Meledakkan Cherry Bomb setelah memakan zombie.\n\n<color=#3D1400>Kerusakan: </color><color=red> Sekali Bunuh</color>\n<color=#3D1400>Spesial: </color><color=red>Menciptakan ledakan Cherry di depan saat menggigit, membunuh zombie dalam area 3x3.</color>\n<color=#3D1400>Formula Gabungan: </color><color=red>Cherry Bomb + Chomper</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1017,
+      "name": "Gatling Cherry",
+      "introduce": "<size=24><color=#3D1400>Laras Gatling Cherry selalu merah menyala. Dia meyakinkan semua orang bahwa itu sudah dipanaskan untuk memastikan tembakan peluru lebih cepat. Semua orang percaya cerita itu—sampai mereka melihatnya makan ceri spesial tanpa melepas larasnya.</color></size>",
+      "info": "<size=24>Bentuk akhir Cherry Shooter!\n\n<color=#3D1400>Kerusakan: </color><color=red>60*4/1.5 Detik</color>\n<color=#3D1400>Formula Gabungan: </color><color=red>Gatling Pea + Cherry Bomb</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1018,
+      "name": "Pea-shroom",
+      "introduce": "<size=24><color=#3D1400>\u0022Jangan biarkan ukuran saya menipumu; bahkan tubuh kecil bisa menyimpan banyak energi,\u0022 peringat Pea-shroom kepada mereka yang meremehkannya. \u0022Kita semua mulai sebagai jamur kecil, berproses sedikit demi sedikit. Dengan dedikasi pada sarapan yang cerah, kamu bisa jadi seperti saya.\u0022</color></size>",
+      "info": "<size=24>Pea-shroom dapat menembak lebih jauh daripada Puff-shroom.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color>\n<color=#3D1400>Formula Gabungan: </color><color=red>Puff-shroom + Peashooter (Secara Berurutan)</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1019,
+      "name": "Repea-shroom",
+      "introduce": "<size=24><color=#3D1400>\u0022Siapa saya? Jawaban ada pada tembakan ganda!\u0022 teriak puff-shroom kecil, bangga memamerkan dua daun kembar di atas kepalanya. Dengan dua peluru dan dua kali semangat, makhluk berenergi ini berkembang dalam kelompok, dengan antusias mengeluarkan kekuatan mereka di medan perang, menunjukkan bahwa ukuran tidak menentukan kekuatan mereka.</color></size>",
+      "info": "<size=24>Repea-shroom dapat menembak dua kacang kecil sekaligus.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*2/1.5 Detik</color>\n<color=#3D1400>Formula Gabungan: </color><color=red>Puff-shroom + Repeater (Secara Berurutan)</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1020,
+      "name": "Buckshooter",
+      "introduce": "<size=24><color=#3D1400>\u0022Saya mewakili semangat nenek moyang saya; saya tidak akan jatuh di sini!\u0022 Ironshooter dengan percaya diri berkata kepada siapa pun yang melintasinya. Ketika ditunjukkan bahwa helmnya mirip dengan helm yang dicuri dari Iron Bucket Zombie, dia menjawab, \u0022Maka biarkan kita memanggil kehendak mereka dan menerbangkan angin dan gelombang sekali lagi!\u0022</color></size>",
+      "info": "<size=24>Ironshooter memiliki kemampuan untuk menghancurkan armor.\n\n<color=#3D1400>Ketahanan: </color><color=red>2000</color>\n<color=#3D1400>Kerusakan: </color><color=red>80/1.5 Detik</color>\n<color=#3D1400>Spesial: </color><color=red>Menyerang kembali saat kontak. Memberikan kerusakan besar kepada Iron Zombies, dan menghancurkan pintu besi.</color>\n<color=#3D1400>Formula Gabungan: </color><color=red>Peashooter + Iron</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1021,
+      "name": "Nut-shroom",
+      "introduce": "<size=24><color=#3D1400>Nut atau jamur? Kenapa harus khawatir dengan label? Nut-shroom tidak akan memberitahumu bahwa dia sebenarnya adalah matsutake yang menyamar.</color></size>",
+      "info": "<size=24>Nut-shroom bisa jadi pelindungmu yang setia meski ukurannya kecil.\n\n<color=#3D1400>Ketahanan: </color><color=red>2000</color>\n<color=#3D1400>Formula Gabungan: </color><color=red>Puff-shroom + Wall-nut (Secara Berurutan)</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1022,
+      "name": "Mini Hypno-shroom",
+      "introduce": "<size=24><color=#3D1400>\u0022Dulu, saat kecil, aku percaya zombie itu hanya monster dongeng,\u0022 kata Mini Hypno-shroom dengan lembut. \u0022Sekarang, jangan salah paham—aku hanya mengembalikan mereka ke bentuk dongeng yang seharusnya.\u0022\u0022</color></size>",
+      "info": "<size=24>Memperkecil zombie dan membuatnya bertarung untukmu!\n\n<color=#3D1400>Spesial: </color><color=red>Memperkecil zombie (mengurangi Kesehatan menjadi setengah) dan bertarung untukmu.</color>\n<color=#3D1400>Formula Fusi: </color>\n<color=red>Puff-shroom + Hypno-shroom (Urutan)</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1023,
+      "name": "<size=30>Hypno Fume-shroom</size>",
+      "introduce": "<size=24><color=#3D1400>Hypno Fume-shroom yang berwarna-warni membuat debut yang megah! Dengan semburan spora, ia bisa membalikkan zombie dalam sekejap. Beberapa mengatakan ini adalah teknik rahasia dari keluarga jamur, sementara yang lain percaya ini adalah senjata militer mutakhir. Hypno Fume-shroom hanya tersenyum dan berkata, \u0022Semua ini berkat Hypno-shroom yang membantuku berkumur setiap hari.\u0022</color></size>",
+      "info": "<size=24>Hypno Fume-shroom menyemprotkan uap yang bisa memikat zombie.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik (Menembus) </color>\n<color=#3D1400>Spesial: </color><color=red>\nKesempatan untuk memikat zombie dengan Kesehatan <50%.\nMenghipnotis zombie yang memakannya.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Fume-shroom + Hypno-shroom</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1024,
+      "name": "<size=28>Hypno Scaredy-shroom</size>",
+      "introduce": "<size=24><color=#3D1400>Scaredy-shroom selalu takut pada zombie. Untuk mengurangi rasa takutnya, Hypno-shroom membacakan cerita pengantar tidur setiap hari: \u0022Sebenarnya, ada orang baik di antara zombie.\u0022 Seiring waktu, Scaredy-shroom akhirnya terbrainwash. Sekarang dia bisa menggunakan spora untuk membbrainwash zombie. Tentu saja, dia masih sangat takut.</color></size>",
+      "info": "<size=24>Hypno Scaredy-shroom bisa menembakkan peluru dengan 7 warna.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color>\n<color=#3D1400>Spesial: </color><color=red>Secara acak menembakkan 1 dari 7 jenis peluru. Ketika zombie terkena semua 7 jenis peluru, dia akan terpesona. Setiap kali dia terkena jenis peluru, kemungkinan pesona dari Hypno Scaredy-shroom akan meningkat.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Hypno-shroom + Scaredy-shroom</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1025,
+      "name": "Bold-shroom",
+      "introduce": "<size=24><color=#3D1400>\u0022Keberanian mengisi diriku, tak ada rasa takut yang tersisa~ Entah itu musim semi, gugur, dingin, atau panas~\u0022 Bold-shroom tak lagi menyusut di hadapan zombie. \u0022Dulu aku tremor, tapi Senior Fume-shroom bilang, 'Jika zombie mendekat, semprotkan spora mu. Bersembunyi tidak akan menyelesaikan apa pun.'\u0022</color></size>",
+      "info": "<size=24>Bold-shroom siap menghadapi zombie, dekat atau jauh!\n\n<color=#3D1400>Kerusakan: </color><color=red>20*2/1.5 Detik</color>\n<color=#3D1400>Spesial: </color><color=red>Ketika zombie mendekat dalam 3 kotak, mereka akan menyemprotkan uap yang menembus.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Fume-shroom + Scaredy-shroom</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1026,
+      "name": "Charm-shroom",
+      "introduce": "<size=24><color=#3D1400>Charm-shroom berbicara dengan senyuman lembut, \u0022Setiap spora membawa cintaku, dan ketika mereka mekar, rasanya seperti angin semilir musim semi yang menyentuh udara.\u0022 Dia bahkan memutar kepalanya menjadi bentuk hati untuk mengekspresikan perasaannya. Matanya bersinar dengan ketulusan, berharap agar mungkin, hanya mungkin, zombie akan mengerti cintanya.</color></size>",
+      "info": "<size=24>Charm-shroom dapat menembakkan spora Pesona yang meledak.\n\n<color=#3D1400>Kerusakan: </color><color=red>80 / 1.5 Detik</color>\n<color=#3D1400>Spesial: </color><color=red>40 kerusakan area dalam grid 1x1.5. Memiliki kesempatan untuk memikat zombie dengan HP < 50%.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Fume-shroom + Scaredy-shroom + Hypno-shroom</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1027,
+      "name": "Tall-nut",
+      "introduce": "<size=24><color=#3D1400>\u0022Semakin tinggi kamu, semakin kuat kamu.\u0022 Tall-nut percaya ini, itulah sebabnya dia selalu berdiri di garis depan. Tanaman lainnya menyuruhnya untuk bersantai, tapi dia hanya tersenyum dan berkata, \u0022Tak apa, aku tinggi. Selama kamu bertarung dengan cepat, zombie tidak akan punya waktu untuk memakan semuanya dariku.\u0022</color></size>",
+      "info": "<size=24>Tall-nuts adalah tanaman dinding yang kuat yang tidak bisa dilompati atau dilompati.\n\n<color=#3D1400>Kekokohan: </color><color=red>8000</color></size>",
+      "cost": "<size=24>Biaya: <color=red>125</color>\nWaktu Isi Ulang: <color=red>50 Detik</color></size>"
+    },
+    {
+      "seedType": 1028,
+      "name": "Rugby-nut",
+      "introduce": "<size=24><color=#3D1400>Rugby-nut terlihat garang, membuat beberapa tanaman kecil yang tidak tahu kebenarannya merasa takut akan penampilannya. Namun, tanaman yang memahami Rugby-nut tahu bahwa di balik eksterior seriusnya terdapat tekad yang kuat untuk melindungi teman-temannya. Helm yang dicuri jelas meningkatkan kepercayaan dirinya.</color></size>",
+      "info": "<size=24>Rugby-nut mampu menahan sejumlah besar kerusakan.\n\n<color=#3D1400>Kekokohan: </color><color=red>16000</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Tall-nut + Helm Rugby</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1029,
+      "name": "Buck-nut",
+      "introduce": "<size=24><color=#3D1400>Tanaman memiliki perasaan campur aduk tentang Buck-nut. Sebagai tentara teladan, dia melaksanakan perintah dengan ketepatan yang tak tergoyahkan, namun sikapnya yang dingin seringkali mengecewakan. Karat di sudut mulutnya menandakan masa lalu yang penuh cerita. Namun, di saat-saat tenang, Buck-nut berjuang dengan kekhawatiran yang tak terucapkan: \u0022Bagaimana cara mencegah karat di kebun yang lembap?\u0022</color></size>",
+      "info": "<size=24>Memblokir kemajuan zombie dengan dinding besi.\n\n<color=#3D1400>Kekuatan: </color><color=red>8000</color>\n<color=#3D1400>Formula Fusion: </color><color=red>Wall-nut + Besi</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1030,
+      "name": "Repeater",
+      "introduce": "<size=24><color=#3D1400>Tidak seperti saudaranya yang cerah dan ceria, Repeater menjalani hidup santai—hingga saatnya bertempur. Dia secara diam-diam menguasai seni menembak ganda tetapi menyimpannya dari Peashooter. \u0022Saya hanya ingin dia hidup bahagia, tanpa perlu belajar keterampilan bertarung ini.\u0022</color></size>",
+      "info": "<size=24>Repeater menembakkan dua kacang sekaligus.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*2/1.5 Detik</color>\n<color=#3D1400>Formula Fusion: </color><color=red>Peashooter + Peashooter</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1031,
+      "name": "Sun-shroom",
+      "introduce": "<size=24><color=#3D1400>Sun-shroom membenci sinar matahari. Dia membencinya sedemikian rupa sehingga saat terakumulasi dalam tubuhnya, dia langsung meludahkan secepat mungkin. Dia tidak akan mentolerirnya. Bagi dia, sinar matahari itu kasar.</color></size>",
+      "info": "<size=24>Sun-shroom memberikan sedikit sinar matahari di awal dan sinar matahari normal kemudian.\n\n<color=#3D1400>Output Sinar: </color><color=red>15（25）/ 25 Detik\n<color=#3D1400>Waktu Pertumbuhan: </color><color=red>120 Detik</color>\n<color=#3D1400>Formula Fusion: </color><color=red>Puff-shroom + Sunflower</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1032,
+      "name": "Gatling Pea",
+      "introduce": "<size=24><color=#3D1400>Gatling Pea, kakak besar dari keluarga Kacang, berdiri tegak dengan laras senjatanya, menjadi fondasi keselamatan semua orang. Punggungnya seperti monumen di medan perang, dikagumi oleh semua. Namun, dia tersenyum dengan rendah hati, mengetahui bahwa kehidupan sehari-harinya sebenarnya diatur oleh adik laki-lakinya, Peashooter. \u0022Saya tidak bisa hidup tanpanya,\u0022 dia mengakui dengan pelan.</color></size>",
+      "info": "<size=24>Gatling Pea menembakkan empat kacang sekaligus.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*4/1.5 Detik</color>\n<color=#3D1400>Formula Fusion: </color><color=red>Split Pea + Peashooter</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1033,
+      "name": "Twin Sunflower",
+      "introduce": "<size=24><color=#3D1400>Twin Sunflower dikenal sebagai saudara perempuan, selalu bekerja di belakang layar daripada di garis depan medan perang. Peran mereka adalah mendukung semua orang dari belakang, tetapi jangan salah—kamu harus melindungi mereka. Jika mereka terluka, banyak tanaman akan meneteskan air mata secara diam-diam.</color></size>",
+      "info": "<size=24>Twin Sunflower memberikan dua kali lipat sinar matahari dibandingkan dengan sunflower biasa.\n\n<color=#3D1400>Output Sinar: </color><color=red>25*2/20 Detik</color>\n<color=#3D1400>Formula Fusion: </color><color=red>Sunflower + Sunflower</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1034,
+      "name": "Snow Pea",
+      "introduce": "<size=24><color=#3D1400>Snow Pea yang berdarah dingin jarang menunjukkan emosinya kepada tanaman lain. Beberapa mengatakan hatinya bahkan lebih dingin daripada kacang beku yang dia tembakkan. Snow Pea tidak ingin terlihat seperti itu, tetapi setiap kali dia membuka mulut, peluru yang dia luncurkan menjatuhkan suhu di sekelilingnya hingga membeku.</color></size>",
+      "info": "<size=24>Snow Pea menembakkan kacang beku yang merusak dan memperlambat musuh.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color>\n<color=#3D1400>Sistem Cryo:</color>\n<color=red>Setiap peluru akan menambahkan 10 Poin Cryo.</color>\n<color=#3D1400>Formula Fusion: </color><color=red>Peashooter + Ice-shroom</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1035,
+      "name": "Icicle-shroom",
+      "introduce": "<size=24><color=#3D1400>Icicle-shroom tidak berniat untuk menguasai teknologi pendinginan. Saat perjalanan mendaki, mereka lupa membawa selimut dan menghabiskan semalaman terjebak beku di puncak gunung, embun beku terbentuk di kepala mereka. Kemudian, Snow Pea, terpesona oleh penampilan beku mereka, memberi mereka peluru es untuk melengkapi penampilan baru mereka.</color></size>",
+      "info": "<size=24>Icicle-shroom menembakkan icicle yang memperlambat musuh.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color>\n<color=#3D1400>Sistem Cryo: </color><color=red>Menambahkan 5 Poin Cryo untuk setiap icicle yang mengenai sasaran. Menembus 3 kali. Setiap icicle akan memberikan 4 kali lipat kerusakan pada zombie yang beku.</color>\n<color=#3D1400>Formula Fusion: </color><color=red>Puff-shroom + Snow Pea (Dalam Urutan)</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1036,
+      "name": "Mini Ice-shroom",
+      "introduce": "<size=24><color=#3D1400>\"Kecil dalam ukuran, besar dalam kemampuan!\" Mini Ice-shroom selalu tampil dengan wajah poker yang tak tergoyahkan saat menyampaikan leluconnya, dan mungkin itu sebabnya zombie membeku di tempat.</color></size>",
+      "info": "<size=24>Mini Ice-shroom dapat membekukan zombie yang bersentuhan dengannya untuk sementara.\n\n<color=#3D1400>Spesial: </color><color=red>Membekukan zombie yang memakannya di tempat.</color>\n<color=#3D1400>Resep Fusi: </color>\n<color=red>Puff-shroom + Ice-shroom (Secara Urut)</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1037,
+      "name": "Ice Fume-shroom",
+      "introduce": "<size=24><color=#3D1400>Ice Fume-shroom mencolok di antara Fume-shroom lainnya. Studinya di alam liar Alaskan yang membeku membuatnya semakin \"keren\"—secara harfiah. Meskipun ia hanya belajar desain rambut selama beberapa tahun, dia cukup bangga dengan itu.</color></size>",
+      "info": "<size=24>Uap dari Ice Fume-shroom dapat menembus dan membekukan zombie.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik (Menembus) </color>\n<color=#3D1400>Sistem Cryo: </color><color=red>Menambahkan 5 Poin Cryo setelah setiap serangan.</color>\n<color=#3D1400>Resep Fusi: </color><color=red>Fume-shroom + Ice-shroom</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1038,
+      "name": "<size=30>Ice Scaredy-shroom",
+      "introduce": "<size=24><color=#3D1400>Ice Scaredy-shroom percaya bahwa dia berbeda dari scaredy-shroom lainnya. Tidak seperti mereka, dia tidak pernah menyusut karena ketakutan dan ikut serta dalam semua aktivitas tanpa ragu. Namun, itu hanya karena ketika dia takut, suhu di sekelilingnya turun drastis, membuat semua orang terlalu takut untuk mengejutkannya.</color></size>",
+      "info": "<size=24>Ice Scaredy-shroom dapat menembakkan spora es yang memperlambat zombie dan membekukan zombie di sekitarnya saat ketakutan.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color>\n<color=#3D1400>Sistem Cryo: </color><color=red>10 Poin Cryo per serangan.</color>\n<color=#3D1400>Spesial: </color>\n<color=red>Membekukan zombie di sekitar ketika mereka mendekat.</color>\n<color=#3D1400>Resep Fusi: </color><color=red>Scaredy-shroom + Ice-shroom</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1039,
+      "name": "Frost-nut",
+      "introduce": "<size=24><color=#3D1400>Frost-nut mengangkat duri-duri esnya tinggi, siap menghadapi zombie. Yang lain berkomentar tentang betapa \"dingin\" dan \"diam\" dia tampak. Namun, ekspresinya tetap tidak berubah, teguh dalam pertahanannya melawan undead. Kebenarannya, wajahnya hanya membeku di tempat.</color></size>",
+      "info": "<size=24>Frost-nut adalah tanaman penghalang berat. Mereka memperlambat zombie yang menggigitnya.\n\n<color=#3D1400>Kekuatan: </color><color=red>8000</color>\n<color=#3D1400>Sistem Cryo: </color><color=red>Zombie yang menggigitnya akan melambat dan mengumpulkan 10 Poin Cryo.</color>\n<color=#3D1400>Resep Fusi: </color><color=red>Ice-shroom + Tall-nut</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1040,
+      "name": "Cryodoom-shroom",
+      "introduce": "<size=24><color=#3D1400>\"Aku akan membekukan dunia, dan kesunyian akan berkuasa. Dingin yang ekstrem akan mengganggu sistem suhu tubuhmu, sehingga tidak akan terlalu menyakitkan,\" seru Cryodoom-shroom. Dia jarang muncul dalam pertempuran, tetapi ketika dia melakukannya, badai salju mengikutinya. Dengan kilatan cahaya putih, bahkan waktu tampak beku.</color></size>",
+      "info": "<size=24>Cryodoom-shroom dapat menghancurkan zombie di seluruh layar dan membekukan waktu.\n\n<color=#3D1400>Kerusakan: </color><color=red>1800 (Abu)</color>\n<color=#3D1400>Spesial: </color><color=red>Membekukan level – tidak ada zombie baru yang akan muncul dalam 10 detik.</color>\n<color=#3D1400>Resep Fusi: </color><color=red>Ice-shroom + Doom-shroom</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1041,
+      "name": "<size=28>Ice Hypno-shroom",
+      "introduce": "<size=24><color=#3D1400>Kecantikan Salju? Bunga Pegunungan Tinggi? Ice Hypno-shroom. Dia tidak peduli. Dia diam-diam merawat mahkota salju di kepalanya dan siap untuk menyerahkan pelindung kacang tingginya kepada zombie kapan saja. \"Mereka pasti suka gaya yang sejuk.\"</color></size>",
+      "info": "<size=24>Ketika zombie memakan Ice Hypno-shroom, ia akan berubah menjadi Zombie Ice Tall-nut yang akan berjuang untukmu.\n\n<color=#3D1400>Spesial: </color><color=red>Setelah kontak, mengubah zombie menjadi Zombie Ice Tall-nut yang akan berjuang untukmu. Juga membekukan seluruh lapangan.</color>\n<color=#3D1400>Resep Fusi: </color><color=red>Hypno-shroom + Ice-shroom</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1042,
+      "name": "<size=28>Doom Scaredy-shroom",
+      "introduce": "<size=24><color=#3D1400>Sementara beberapa tanaman secara instingtif menguburkan kepala mereka saat gugup, Doom Scaredy-shroom justru berkembang dalam kegembiraan. Adrenalin yang mengalir membuat peluru-pelurunya ditembakkan dengan semakin cepat. Bijak untuk menghindari provokasi lagi, atau dia mungkin meledak karena semua energi terpendam itu.</color></size>",
+      "info": "<size=24>Doom Scaredy-shroom meningkatkan kecepatan serangannya saat menyerang.\n\n<color=#3D1400>Kerusakan: </color><color=red>20 / 1.5 Detik (Puncak 0.5 Detik)</color>\n<color=#3D1400>Spesial: </color><color=red>Setiap serangan akan memperpendek interval serangan sebesar 0.1 detik, maksimum 0.5 detik. Mengatur ulang saat zombie mendekat. Akan meledak saat zombie mendekat saat kecepatan serangan puncak tercapai.</color>\n<color=#3D1400>Resep Fusi: </color><color=red>Scaredy-shroom + Doom-shroom</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1043,
+      "name": "<size=32>Doom Fume-shroom</size>",
+      "introduce": "<size=24><color=#3D1400>Doom Fume-shroom, si pekerja keras yang tidak suka keramaian, tidak tahan melihat zombie—itu terlalu mengganggu. Dia punya sedikit peluru, tapi lebih dari cukup untuk membuat zombie kapok. \u0022Jangan ganggu aku kecuali darurat. Kalau mau mereka mati, tembak saja sendiri.\u0022 Meskipun begitu, efisiensinya yang tajam membuat semua orang mengaguminya.</color></size>",
+      "info": "<size=24>Doom Fume-shroom dapat menghancurkan sebagian besar zombie di depannya.\n\n<color=#3D1400>Kerusakan: </color><color=red>1800/60 Detik</color>\n<color=#3D1400>Spesial: </color><color=red>Klik manual untuk menyerang semua zombie dalam satu baris.</color>\n<color=#3D1400>Formula Gabungan: </color><color=red>Fume-shroom + Doom-shroom</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1044,
+      "name": "Mini Doom-shroom",
+      "introduce": "<size=24><color=#3D1400>Mini Doom-shroom mungkin kecil, tapi temperamennya meledak-ledak. Berdebat dengannya, dan dia bisa meledak—tanpa perlu kontak mata. Sebaiknya kagumi dia dari jauh—jangan terlalu dekat, atau semuanya bisa berantakan.</color></size>",
+      "info": "<size=24>Mini Doom-shroom akan meledak saat bersentuhan dengan zombie.\n\n<color=#3D1400>Kerusakan: </color><color=red>1800 (Abu)</color>\n<color=#3D1400>Spesial: </color><color=red>Akan meledak saat zombie mendekat.</color>\n<color=#3D1400>Formula Gabungan: </color>\n<color=red>Puff-shroom + Doom-shroom (Dalam Urutan)</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1045,
+      "name": "<size=32>Doom Hypno-shroom</size>",
+      "introduce": "<size=24><color=#3D1400>Tanaman mulai bertanya-tanya mengapa zombie yang sudah mati tidak bisa dibunuh. Hingga Doom Hypno-shroom yang terdekat menemukan masalahnya. \u0022Sebenarnya, saya tidak melakukan apa-apa. Saya hanya membantu zombie mengaktifkan energi cadangan yang tersembunyi. Bukankah zombie merah terlihat sangat berbahaya? Saya sudah memperingatkan mereka.\u0022</color></size>",
+      "info": "<size=24>Zombie yang memakan Doom Hypno-shroom akan terhipnotis, dan meledak setelah mati.\n\n<color=#3D1400>Spesial: </color><color=red>Zombie yang memakan Doom Hypno-shroom akan terpesona untuk melawan untukmu. Akan meledak saat mati, memberikan kerusakan besar.</color>\n<color=#3D1400>Formula Gabungan: </color>\n<color=red>Hypno-shroom + Doom-shroom</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1046,
+      "name": "Doomberg-shroom",
+      "introduce": "<size=24><color=#3D1400>Es telah melapisi tubuhnya, menghapus kepolosan masa mudanya. Matanya, lebih dingin dan mematikan daripada laras senjata mana pun, kini hanya menunjukkan penghinaan pada musuhnya. Dia telah menjadi pencabut nyawa, ujung dari segalanya. Siapa pun yang tertangkap dalam pandangan dinginnya sebaiknya mempersiapkan satu makanan lebih sedikit di rumah.</color></size>",
+      "info": "<size=24>Doomberg-shroom dapat menembakkan kerucut es yang meledak.\n\n<color=#3D1400>Kerusakan: </color><color=red>30*4/3 Detik</color>\n<color=#3D1400>Spesial: </color><color=red>M穿as 3 musuh. Menghancurkan 10 kerusakan dalam jangkauan kontak musuh.</color>\n<color=#3D1400>Formula Gabungan: </color><color=red>Fume-shroom + Ice-shroom + Doom-shroom</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1047,
+      "name": "Squash-spreader",
+      "introduce": "<size=24><color=#3D1400>\u0022Dia punya tiga kepala, dan pangkalnya bahkan bukan daun! Dia terlihat tidak seperti kacang biasa!\u0022 Banyak tanaman merasa takut dengan penampilan Squash-spreader yang aneh. Namun, Squash-spreader tetap tenang. Dia menikmati hidupnya yang cerah, melawan zombie, membaca dengan lahap, bermain catur, dan memenangkan setiap kontes loncat kolam.</color></size>",
+      "info": "<size=24>Squash-spreader dapat menembakkan squash kecil yang memantul.\n\n<color=#3D1400>Kerusakan: </color><color=red>40*3/3 Detik</color>\n<color=#3D1400>Spesial: </color><color=red>Setiap kali peluru squash mengenai tanah, memberikan 40 poin kerusakan kepada zombie terdekat.</color>\n<color=#3D1400>Formula Gabungan: </color><color=red>Squash + Threepeater</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1049,
+      "name": "Spicy Kelp",
+      "introduce": "<size=24><color=#3D1400>\u0022Semangat itu seperti api,\u0022 dan Spicy Kelp tahu pepatah ini dengan sangat baik. Tidak ada air yang bisa memadamkan nyala api mereka! Sayangnya, zombie-zombie di dekatnya hanya bisa merasakan panas dari \u0022penggorengan\u0022. Lihatlah mereka, mereka sudah berubah menjadi abu dalam api yang tak kenal ampun ini!</color></size>",
+      "info": "<size=24>Spicy Kelp akan membakar seluruh baris zombie saat bersentuhan.\n\n<color=#3D1400>Kerusakan: </color><color=red> Pembunuhan Instan + 1800 (Abu)</color>\n<color=#3D1400>Formula Gabungan: </color>\n<color=red>Tangle Kelp + Jalapeno (Dalam Urutan)</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1050,
+      "name": "Squash Kelp",
+      "introduce": "<size=24><color=#3D1400>Squash Kelp menonjol sebagai filsuf sejati di antara tanaman. Dia sering bergumam, \u0022Apakah aku squash atau apakah aku kelp?\u0022 atau merenungkan pertanyaan mendalam seperti, \u0022Dari mana rumput berasal, dan ke mana perginya?\u0022 Namun, ketidakpeduliannya terhadap kebersihan diri dan rambut yang berantakan membuat tanaman lain enggan mendekat, lebih suka menjaga jarak.</color></size>",
+      "info": "<size=24>Squash Kelp dapat menarik tiga zombie ke dalam air.\n\n<color=#3D1400>Kerusakan: </color><color=red> Pembunuhan Instan*3</color>\n<color=#3D1400>Formula Gabungan: </color><color=red>Squash + Tangle Kelp</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1051,
+      "name": "Kelp-spreader",
+      "introduce": "<size=24><color=#3D1400>Kelp-spreader berjemur di bawah sinar matahari, matanya mengawasi cakrawala. \u0022Banyak tanaman takut melihatku,\u0022 ia tertawa. \u0022Tapi mereka pasti akan mengerti jika mereka harus memakai tiga pasang kacamata hitam untuk melindungi diri seperti yang aku lakukan!<\/color><\/size>",
+      "info": "<size=24>Dapat menembakkan peluru rumput laut yang memperlambat zombie.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*3/1.5 Memperlambat + Dapat ditumpuk dengan Pembekuan<\/color>\n<color=#3D1400>Debuff Tangle: </color><color=red>Setiap peluru akan memberikan kerusakan tambahan berdasarkan Nilai Tangle zombie. Zombie akan mati seketika ketika Nilai Tangle sudah penuh.<\/color>\n<color=#3D1400>Formula Fusi: </color><color=red>Threepeater + Tangle Kelp<\/color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1052,
+      "name": "Pyrewood",
+      "introduce": "<size=24><color=#3D1400>\u0022Sangat panas di sini!<\/color><\/size> Pyrewood menggerutu. Meyakini bahwa cuaca ekstrem adalah penyebab kulitnya, ia memperhatikan bagaimana api di kepalanya juga berubah menjadi merah cerah. Mungkin ini saat yang tepat untuk memulai petualangan musim panas bernama \u0022Tur Sledding.\u0022",
+      "info": "<size=24>Pyrewood dapat memberikan peningkatan kerusakan yang lebih kuat untuk peluru!\n\n<color=#3D1400>Spesial: </color><color=red>Meningkatkan kerusakan tergantung pada jenis peluru. Meledak saat mati.\nPeas: 80 | Ceri: 120 | Iron Peas: 320 | Sinarmata: 400 | Threeway Pea: 60\nMemberikan 40 kerusakan seiring waktu kepada zombie yang terkena setiap 3 detik.<\/color>\n<color=#3D1400>Formula Fusi: </color><color=red>Torchwood + Jalapeno + Jalapeno<\/color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1053,
+      "name": "Scorchwood",
+      "introduce": "<size=24><color=#3D1400>Suasana panas dan pedas selalu berkaitan. Scorchwood mungkin tidak mengerti konsep ini, tapi tahun-tahunnya bekerja di gerai barbekyu telah memberinya panas yang khas.<\/color></size>",
+      "info": "<size=24>Peluru yang dinyalakan oleh Scorchwood memiliki kekuatan yang jauh lebih besar.\n\n<color=#3D1400>Spesial: </color><color=red>Meningkatkan kerusakan tergantung pada jenis peluru. Meledak saat mati.\nPeas: 60, Ceri: 120, Bucks: 320, Sinarmata: 400, Threeway Pea: 45<\/color>\n<color=#3D1400>Formula Fusi: </color><color=red>Jalapeno + Torchwood<\/color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1054,
+      "name": "Spicy Squash",
+      "introduce": "<size=24><color=#3D1400>\u0022Aku tidak secepat saudaraku,\u0022 kata Spicy Squash dengan tenang. \u0022Dia terburu-buru dalam segalanya, tapi aku belajar bahwa kesuksesan sejati datang dari kesabaran dan pengamatan yang cermat. Terkadang, lebih baik menunggu dan membiarkan api mendidih.<\/color><\/size>",
+      "info": "<size=24>Spicy Squash dapat membakar seluruh barisan zombie.\n\n<color=#3D1400>Kerusakan: </color><color=red> 1800 (Satu Petak) + 1800 (Jalur)<\/color>\n<color=#3D1400>Formula Fusi: </color><color=red>Squash + Jalapeno<\/color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1055,
+      "name": "Torchthree",
+      "introduce": "<size=24><color=#3D1400>\u0022Mengapa Torchthree begitu kaya?<\/color><\/size> Tanaman sering bertanya-tanya. \u0022Oh, tidak ada yang istimewa,\u0022 jawabnya sambil mengangkat bahu. Threeway Torchwood kemudian mengeluarkan tiga peas dari rambutnya dan menambahkan, \u0022Aku dulunya bekerja sebagai pesulap di sirkus.\u0022",
+      "info": "<size=24>Dapat mengubah satu pea menjadi tiga pea yang menyala.\n\n<color=#3D1400>Spesial: </color><color=red>Membagi peas yang melewati menjadi 3 pea kecil yang menyala yang memberikan 30 kerusakan splash.<\/color>\n<color=#3D1400>Formula Fusi: </color><color=red>Threepeater + Torchwood<\/color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1056,
+      "name": "Torch-kelp",
+      "introduce": "<size=24><color=#3D1400>\u0022Api sulit untuk bertahan di bawah air, artinya aku tidak bisa menggunakan apiku untuk menerangi jalan,\u0022 kata Torch-kelp. \u0022Tapi setelah muncul ke permukaan, apiku bisa bersinar lagi.<\/color><\/size>",
+      "info": "<size=24>Menyulut peluru rumput laut atau menyeret zombie ke dalam air.\n\n<color=#3D1400>Spesial: </color><color=red>Menyulut peas dan peluru rumput laut. Peluru rumput laut yang dinyalakan dapat menambah 1 Nilai Tangle untuk semua zombie dalam jangkauan splash.<\/color>\n<color=#3D1400>Formula Fusi: </color><color=red>Tangle Kelp + Torchwood<\/color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1057,
+      "name": "DI MANAKAH INI 2",
+      "introduce": "<size=24><color=#3D1400>Api yang melompat dari sebuah tempat selalu datang satu per satu dari tempat api. \u0022Ruang pembakaran terlalu panas, aku hampir meleleh!<\/color><\/size> beberapa api melompat bersamaan.",
+      "info": "<size=24>Dia hanya sebuah pea emas.\n\n<color=#3D1400>Kerusakan: </color><color=red>1800<\/color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1058,
+      "name": "<size=28>Threepeater Terpanggang",
+      "introduce": "<size=24><color=#3D1400>\u0022Mengapa Jalapeno selalu dapat semua pujian?<\/color><\/size> Threepeater Terpanggang berseru, asap mengepul dari mulutnya. \u0022Jika mereka tahu bahwa bergabung dengan Jalapeno membakar peas-mu.\/color><\/size> Dia menatap Torchwood dengan serius. \u0022Percayalah, kamu tidak ingin mengunyah peas yang hangus!<\/color><\/size>",
+      "info": "<size=24>Threepeater yang tidak bisa berfusi karena sudah terpanggang.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*3/1.5 Detik<\/color>\n<color=#3D1400>Spesial: </color><color=red>Menghasilkan garis api yang memberikan kerusakan 1800 (Abu) di tiga jalur saat ditanam atau digabungkan.<\/color>\n<color=#3D1400>Formula Fusi: </color><color=red>Threepeater + Jalapeno<\/color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1059,
+      "name": "<size=28>Torchwood yang Terpijat",
+      "introduce": "<size=24><color=#3D1400>\u0022Terlalu panas! Terlalu panas!<\/color><\/size> Squash berteriak, terjebak dalam api Torchwood. \u0022Siapa yang menempatkanku di sini? Seharusnya aku menghancurkan zombie, bukan menjadi bahan lelucon di pesta barbekyu!<\/color><\/size> Panasnya luar biasa, dan saat dia mencapai batasnya, dia menyala, meledak dari obor untuk kembali bertempur melawan zombie.</color></size>",
+      "info": "<size=24>Menghasilkan sebuah Squash di depan untuk setiap 60 peas yang melewatinya.\n\n<color=#3D1400>Spesial: </color><color=red>Setiap kali 60 peas menyala, sebuah Squash akan ditanam di depan.<\/color>\n<color=#3D1400>Formula Fusi: </color><color=red>Squash + Torchwood<\/color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1060,
+      "name": "Spikerock",
+      "introduce": "<size=24><color=#3D1400>Spikerock baru saja kembali dari perjalanan ke Eropa. Dia sangat senang, bertemu dengan orang-orang yang hebat, benar-benar memperluas wawasannya. Dia tidak pernah tahu bahwa mereka membuat museum sebesar itu, atau menaruh begitu banyak lukisan di dalamnya. Itu adalah kejutan besar baginya.<\/color></size>",
+      "info": "<size=24>Spikerock bisa merobek beberapa ban dan melukai zombie yang menginjaknya.\n\n<color=#3D1400>Kekuatan: </color><color=red>450<\/color>\n<color=#3D1400>Spesial: </color><color=red>Dapat merobek ban, tetapi mengurangi 50 Kekuatan.<\/color></size>",
+      "cost": "<size=24>Biaya: <color=red>125<\/color>\nRecharge: <color=red>50 Detik<\/color></size>"
+    },
+    {
+      "seedType": 1061,
+      "name": "Torchweed",
+      "introduce": "<size=24><color=#3D1400>\u0022Aku Torchweed, koki barbekyu yang penuh semangat untuk zombie! Nyalakan peas kecil itu, dan aku akan mengadakan pesta barbekyu yang tak terlupakan. Tenang saja, aku profesional—aku jamin akan renyah di luar dan lembut di dalam!<\/color></size>",
+      "info": "<size=24>Torchweed dapat menyalakan peas kecil dan merobek kendaraan.\n\n<color=#3D1400>Spesial: </color><color=red>Nyalakan peas kecil untuk meningkatkan, dan kerusakan splash.<\/color>\n<color=#3D1400>Formula Fusi: </color><color=red>Spikeweed + Torchwood<\/color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1062,
+      "name": "Scorchweed",
+      "introduce": "<size=24><color=#3D1400>\u0022Studi menunjukkan bahwa kepedasan sebenarnya adalah jenis rasa sakit,\u0022 umumkan Scorchweed, menggoyangkan duri merah di kepalanya. \u0022Aku berniat membiarkan zombie yang tidak percaya mengalami kenyataan ini sendiri.<\/color></size>",
+      "info": "<size=24>Scorchweed merobek ban dan membakar zombie yang menginjaknya.\n\n<color=#3D1400>Kerusakan: </color><color=red>20<\/color>\n<color=#3D1400>Debuff Terbakar: </color><color=red>Setiap kerusakan yang diterima akan meningkat sebesar 50%.<\/color>\n<color=#3D1400>Formula Fusi: </color><color=red>Jalapeno + Spikeweed<\/color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1063,
+      "name": "Squashweed",
+      "introduce": "<size=24><color=#3D1400>\u0022Huh? Ya.<\/color><\/size> Ungkapan ini milik Squashweed, yang jarang berbicara dan sering membuat orang lain merasa tidak pasti. Setelah makan malam, topik duri selalu menjadi favorit di antara tanaman. Dikatakan bahwa pada sore yang biasa, saat Squash bersiap untuk menghancurkan zombie terdekat, dia mengabaikan duri yang mengintai di bawah kaki zombie tersebut.<\/color></size>",
+      "info": "<size=24>Zombie akan terlempar setiap kali ia menyerang.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik<\/color>\n<color=#3D1400>Spesial: </color><color=red>Setiap serangan akan mendorong zombie dan menembakkan 1 peluru squash yang memantul.<\/color>\n<color=#3D1400>Formula Fusi: </color><color=red>Squash + Spikeweed<\/color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1064,
+      "name": "Penyebar Gulma",
+      "introduce": "<size=24><color=#3D1400>\u0022Itu hanyalah ketombe yang aku buang,\u0022 Spikeweed menyatakan dengan santai. Penyebar Gulma mengangkat alis, tidak yakin. \u0022Pembicaraan cemburu, kalau kamu bertanya padaku,\u0022 jawabnya. \u0022Kamu tidak bisa menipuku dengan alasan itu.<\/color></size>",
+      "info": "<size=24>Menembakkan 3 gulma yang memberikan kerusakan tambahan pada kendaraan.\n\n<color=#3D1400>Kerusakan: </color><color=red>5*3/1.5 Detik (Menembus)<\/color>\n<color=#3D1400>Spesial: </color><color=red>Peluru memberikan 30% kerusakan maksimum Kekuatan pada kendaraan.<\/color>\n<color=#3D1400>Formula Fusi: </color><color=red>Threepeater + Spikeweed<\/color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1065,
+      "name": "<size=34>Gatling Pea-shroom</size>",
+      "introduce": "<size=24><color=#3D1400>\u0022Kami siap bergabung dengan angkatan bersenjata!\u0022 seru tiga jamur kecil dengan gembira. Meskipun tinggi badan mereka tidak memenuhi syarat dan mencari helm kecil menjadi tantangan, semua itu tak bisa menghalangi Gatling Pea-shroom. Bersatu sebagai satu, mereka bertekad menjadi trio terbaik di angkatan!</color></size>",
+      "info": "<size=24>Dapat ditumpuk hingga tiga kali untuk menembakkan 12 biji kecil sekaligus!\n\n<color=#3D1400>Kerusakan: </color><color=red>20*4/1,5 Detik</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Puff-shroom + Gatling Pea (Secara Urut)</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1066,
+      "name": "<size=32>Squashkelp-spreader</size>",
+      "introduce": "<size=24><color=#3D1400>Squashkelp-shooter memiliki hati yang contemplative, menyelami dunia filsafat. Jika kamu memberinya segelas root beer, bersiaplah untuk mendengarkan pemikiran tentang Nietzsche's Thus Spoke Zarathustra atau Kant's Critique of Pure Reason. Meskipun pemikirannya mungkin terdengar mendalam, ada kalanya dia merindukan percakapan ringan, seperti membahas suhu kedalaman air.</color></size>",
+      "info": "<size=24>Menembakkan rumput laut yang memantul saat bersentuhan dan memperlambat zombie air.\n\n<color=#3D1400>Kerusakan: </color><color=red>40*3/3 Detik</color>\n<color=#3D1400>Debuff Terjerat: </color><color=red>Rumput laut memantul saat bersentuhan, memberikan 40 kerusakan pada zombie terdekat saat mendarat. Memperlambat musuh air. Menambah 1 Nilai Terjerat saat bersentuhan.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Tangle Kelp + Threepeater + Squash</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1067,
+      "name": "<size=24>Cattail</size>",
+      "introduce": "<size=24><color=#3D1400>\u0022Woof!\u0022 kata Cattail. \u0022Woof woof woof! Apakah ini membingungkanmu? Apakah kamu mengharapkan saya mengatakan 'Meow' seperti kucing karena kata 'kucing' ada di namaku dan saya juga terlihat seperti kucing? Itu tidak bekerja seperti itu di sini. Saya menolak untuk dikotak-kotakkan.\u0022</color></size>",
+      "info": "<size=24>Cattails dapat menyerang di setiap jalur dan menembak jatuh zombie balon.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*2/1,5 Detik</color></size>",
+      "cost": "<size=24>Biaya: <color=red>125</color>\nPengisian Ulang: <color=red>50 Detik</color></size>"
+    },
+    {
+      "seedType": 1068,
+      "name": "<size=24>Frost Cattail</size>",
+      "introduce": "<size=24><color=#3D1400>\u0022Saya bukan hanya kucing... saya... saya kucing biru super!\u0022 seru Frost Cattail. \u0022Apakah kamu punya es kucing?\u0022 Cintanya pada catnip bersinar, dan ia memiliki ketertarikan tak terbantahkan pada segala hal yang dingin.</color></size>",
+      "info": "<size=24>Frost Cattail dapat menyerang zombie di jalur mana pun dan memperlambat mereka.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*2/1,5 Detik (Menembus)</color>\n<color=#3D1400>Sistem Cryo: </color><color=red>Setiap serangan pada zombie menambah 5 Poin Cryo. Selain itu, fokus serangannya pada zombie yang terpengaruh.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Ice-shroom + Cattail</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1069,
+      "name": "<size=24>Flame Cattail</size>",
+      "introduce": "<size=24><color=#3D1400>\u0022Ketika saya masih muda, saya pikir saya akan menjadi Cattail biasa,\u0022 kata Flame Cattail, menghangatkan ekornya dengan bangga. \u0022Ternyata, saya adalah nyala api luar biasa!\u0022 Frost Cattail menghela napas dari sudut, menggumam, \u0022Pamer.\u0022</color></size>",
+      "info": "<size=24>Flame Cattail dapat menyerang zombie di jalur mana pun dan memberikan kerusakan tinggi.\n\n<color=#3D1400>Kerusakan: </color><color=red>40*2/1,5 Detik</color>\n<color=#3D1400>Debuff Terbakar: </color><color=red>Memberikan dua kali lipat kerusakan pada zombie yang terbakar.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Jalapeno + Cattail</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1070,
+      "name": "<size=24>Gloom-shroom</size>",
+      "introduce": "<size=24><color=#3D1400>\u0022Saya selalu suka mengeluarkan asap berat,\u0022 kata Gloom Shroom. \u0022Saya tahu banyak orang tidak suka itu. Mereka bilang itu kasar atau berbau buruk. Yang bisa saya katakan adalah, apakah kamu lebih suka otakmu dimakan zombie?\u0022</color></size>",
+      "info": "<size=24>Gloom-shrooms menembakkan asap berat di area sekitarnya.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*4/1,9 Detik</color></size>",
+      "cost": "<size=24>Biaya: <color=red>125</color>\nPengisian Ulang: <color=red>50 Detik</color></size>"
+    },
+    {
+      "seedType": 1071,
+      "name": "<size=32>Embergloom-shroom</size>",
+      "introduce": "<size=24><color=#3D1400>Embergloom-shroom yang mampu mengeluarkan uap panas telah menjadikannya sebagai pembuat kue pastry yang terkenal. Kue pedas khasnya sangat disukai banyak orang, dihargai karena rasa uniknya.</color></size>",
+      "info": "<size=24>Mengeluarkan asap ember yang memberikan kerusakan tinggi di sekitarnya.\n\n<color=#3D1400>Kerusakan: </color><color=red>40*4/1,9 Detik</color>\n<color=#3D1400>Debuff Terbakar: </color><color=red>Memberikan debuff Terbakar saat menyerang zombie.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Jalapeno + Gloom-shroom</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1072,
+      "name": "Cryogloom-shroom",
+      "introduce": "<size=24><color=#3D1400>Berangan-angan untuk menjadi fisikawan, Cryogloom-shroom menghabiskan harinya untuk mengungkap kompleksitas dunia, sambil menghindari kontak dengan tanaman lain. \u0022Mengapa aku memiliki banyak tali kerucut es tumbuh dari kepalaku?\u0022 pikirnya, pertanyaan terbaru yang mengisi pikirannya. Dia sangat bersikeras untuk menyebutnya \u0022tali.\u0022</color></size>",
+      "info": "<size=24>Mengeluarkan asap dingin di sekitarnya yang bisa membekukan zombie.\n\n<color=#3D1400>Damage: </color><color=red>20*4/1.9 Detik (Menembus) </color>\n<color=#3D1400>Sistem Cryo: </color><color=red>Setiap serangan menambah 5 Poin Cryo.</color>\n<color=#3D1400>Formula Gabungan: </color><color=red>Ice-shroom + Gloom-shroom</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1073,
+      "name": "Scorch-nut",
+      "introduce": "<size=24><color=#3D1400>Scorch-nut adalah penggemar besar Olimpiade dan dengan penuh semangat bersikeras agar Torchwood dipilih sebagai obor Olimpiade. Peringatan bagi yang tidak tahu: jangan mencoba memakannya. Kamu mungkin akan terbakar dari kepedasan!</color></size>",
+      "info": "<size=24>Zombie akan terbakar saat menggigitnya.\n\n<color=#3D1400>Kekuatan: </color><color=red>8000</color>\n<color=#3D1400>Debuff Terbakar: </color><color=red>Zombie yang Terbakar akan 50% lebih rentan terhadap semua serangan.</color>\n<color=#3D1400>Spesial: </color><color=red>Ketika terkena Jalapeno, sembuhkan 1000 Kekuatan. Zombie yang menyerangnya juga kehilangan 20 Kesehatan per serangan.</color>\n<color=#3D1400>Formula Gabungan: </color><color=red>Jalapeno + Tall-nut</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1074,
+      "name": "Spikecicle",
+      "introduce": "<size=24><color=#3D1400>Setelah kembali dari Alaska, Spikecicle tidak bisa menahan kegembiraannya. Dengan semangat ingin membekukan zombie, ia sangat menikmati gagasan \u0022es\u0022 yang meledak di bawah kaki mereka. Ia memastikan semua orang menggunakan istilah \u0022es.\u0022 Kulitnya masih membawa dingin dari petualangan Arktiknya, dan matanya berkilau dengan keindahan salju yang tak mencair.</color></size>",
+      "info": "<size=24>Dapat menusuk ban dan membekukan zombie.\n\n<color=#3D1400>Kekuatan: </color><color=red>450</color>\n<color=#3D1400>Damage: </color><color=red>20*2/1 Detik (Menembus) </color>\n<color=#3D1400>Sistem Cryo: </color><color=red>Menambah 5 Poin Cryo per serangan.</color>\n<color=#3D1400>Spesial: </color><color=red>Dapat menusuk ban, membunuh kendaraan secara instan.</color>\n<color=#3D1400>Formula Gabungan: </color><color=red>Ice-shroom + Spikerock</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1075,
+      "name": "Spikinferno",
+      "introduce": "<size=24><color=#3D1400>Tidak lama setelah itu, Spikinferno berkunjung ke Meksiko dan terpesona oleh semangat ceria warga setempat, cepat jatuh cinta pada taco. Kini, dia mencurahkan semua energinya untuk mendirikan museum taco bersama Spikecicle, meskipun Spikecicle tampaknya tidak berbagi antusiasmenya.</color></size>",
+      "info": "<size=24>Terbakar zombie yang menginjaknya dan juga menusuk kendaraan.\n\n<color=#3D1400>Kekuatan: </color><color=red>450</color>\n<color=#3D1400>Damage: </color><color=red>40*2/1 Detik</color>\n<color=#3D1400>Debuff Terbakar: </color><color=red>Menerapkan Debuff Terbakar saat menyerang zombie.</color>\n<color=#3D1400>Formula Gabungan: </color><color=red>Jalapeno + Spikerock</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1076,
+      "name": "Sea Thorn-shroom",
+      "introduce": "<size=24><color=#3D1400>\u0022Orang-orang sering bertanya tentang penampilanku, jadi izinkan aku menjelaskan: aku berasal dari Gurun Namib,\u0022 kata Sea Thorn-shroom kepada siapa pun yang bertanya. \u0022Jika kamu mengenal geografi, kamu akan tahu bahwa gurun bisa ditemukan tepat di sebelah lautan!\u0022</color></size>",
+      "info": "<size=24>Menyerang zombie terbang dan kapal udara, bertambah besar setelah beberapa saat.\n\n<color=#3D1400>Damage: </color><color=red>20 → 20*4 / 1.5 Detik</color>\n<color=#3D1400>Waktu Pertumbuhan: </color><color=red>120 Detik</color>\n<color=#3D1400>Formula Gabungan: </color><color=red>Sea-shroom + Cactus</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1077,
+      "name": "Sea Sun-shroom",
+      "introduce": "<size=24><color=#3D1400>\u0022Sayangnya, aku adalah jamur, bukan bunga, jadi aku tidak bisa disebut bunga laut atau sejenisnya,\u0022 kata Sea Sun-shroom. \u0022Kadang-kadang, ini membuatku merasa down, tapi jangan biarkan itu mengganggumu. Mungkin aku bukan bunga matahari, tapi aku masih bisa menggunakan berbagai reaksi fisik dan kimia di dalam air untuk membawakanmu sinar matahari!\u0022</color></size>",
+      "info": "<size=24>Menghasilkan jumlah Sinar yang meningkat seiring pertumbuhannya.\n\n<color=#3D1400>Keluaran Sinar: </color><color=red>15 → 25 → 50 / 15 Detik</color>\n<color=#3D1400>Waktu Pertumbuhan: </color><color=red>20 Detik → 40 Detik</color>\n<color=#3D1400>Formula Gabungan: </color><color=red>Sea-shroom + Sunflower</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1078,
+      "name": "Sea Lamp-shroom",
+      "introduce": "<size=24><color=#3D1400>\u0022Aku pernah menjadi sistem lampu di sebuah pesta kolam bajak laut, bekerja untuk perusahaan penyelamatan di kedalaman Amazon selama tiga bulan, dan bahkan menjadi umpan memancing di malam hari saat aku sedang tidur!\u0022 Sea Lamp-shroom berbagi, campuran kemarahan dan kebanggaan terlihat di suaranya. \u0022Sekarang, aku mencari pekerjaan yang stabil. Paman Dave menyebutkan bahwa kolam belakang perlu penerangan, tapi dia lupa menyebutkan bahwa itu dipenuhi zombie!\u0022</color></size>",
+      "info": "<size=24>Mengusir kabut dan memberikan cahaya, bertambah besar setelah beberapa saat.\n\n<color=#3D1400>Waktu Pertumbuhan: </color><color=red>60 Detik</color>\n<color=#3D1400>Sistem Lumos: </color><color=red>Memberikan 1 Level Lumos dalam area 3x3, 5x5 setelah tumbuh.</color>\n<color=#3D1400>Formula Gabungan: </color><color=red>Sea-shroom + Plantern</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1079,
+      "name": "Lumicactus",
+      "introduce": "<size=24><color=#3D1400>\u0022Petualanganku di gurun membuatku sangat bersinar,\u0022 bangga Lumicactus, namun dia tak pernah lupa untuk mengisi ulang minyak lampunya setiap hari agar tetap bercahaya.</color></size>",
+      "info": "<size=24>Menembakkan duri yang menembus dan laser, tergantung pada tingkat Lumos.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik, 20*2/1.5 Detik (Udara)</color>\n<color=#3D1400>Sistem Lumos: </color><color=red>Mendapatkan buff berikut tergantung pada Tingkat Lumos:\nTingkat 1 = Menembus 3 Kali\nTingkat 2 = Menembus Tanpa Henti\nTingkat 3 = Kerusakan Laser Udara → 60</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Plantern + Kaktus</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1080,
+      "name": "Glowver",
+      "introduce": "<size=24><color=#3D1400>\u0022Lilinnya perak menerangi kanvas dingin musim gugur, sementara kipas sutra bercahaya menari anggun bersama kunang-kunang.\u0022 Ini adalah puisi kesayangan Glowver. Ketertarikan pada kunang-kunang dimulai sejak masa kanak-kanak, dan dia sering menikmati angin sejuk di tepi air di malam hari, mengagumi bagaimana fluoresensinya melambung lembut dari angin, berkelap-kelip sebelum jatuh kembali ke rumput gelap. Hanya zombie yang akan mengabaikan keindahan yang sangat luar biasa ini.</color></size>",
+      "info": "<size=24>Menghilangkan kabut dan meningkatkan tingkat Lumos dari tanaman Lumos yang ada.\n\n<color=#3D1400>Sistem Lumos: </color><color=red>Memberikan 1 Tingkat Lumos untuk tanaman Lumos di seluruh ladang selama 30 detik.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Plantern + Blover</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1081,
+      "name": "Starglow",
+      "introduce": "<size=24><color=#3D1400>Bintang menari di atas air saat lampu pancing bersiap untuk naik ke langit. Ombak membawa pergi bulan sementara pasang surut menghadirkan bintang-bintang. Saat kecil, Starglow bermimpi untuk memetik bintang, sering menatap kilauannya di atas air. Bertemu dengan Plantern mengajarkannya bahwa tak perlu iri pada bintang-bintang yang bersinar di atas; bahkan cahaya yang paling redup, seperti kunang-kunang, memiliki kehangatan dan keindahan sendiri.</color></size>",
+      "info": "<size=24>Menembakkan bintang yang dapat melacak zombie jika ada cahaya.\n\n<color=#3D1400>Kerusakan: </color><color=red>40*5/3 Detik</color>\n<color=#3D1400>Sistem Lumos: </color><color=red>Mendapatkan buff berikut: \nTingkat 1 = Peluru sekarang dapat melacak zombie di baris yang sama.\nTingkat 2 = Peluru ditembakkan terus menerus terlepas dari ada tidaknya zombie.\nTingkat 3 = Peluru melacak zombie di mana saja.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Plantern + Starfruit</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1082,
+      "name": "Thornball",
+      "introduce": "<size=24><color=#3D1400>Thornball selalu bergerak dalam kelompok, berkicau angkuh dan memandang rendah yang lain. Tanaman lain penasaran apa yang bisa dilakukan makhluk kecil seperti itu, namun Thornball tetap tenang: \u0022Jika kupu-kupu dapat mengaduk badai, tentu saja kami jauh lebih kuat.\u0022</color></size>",
+      "info": "<size=24>Memuntahkan duri untuk menyerang zombie di langit. Tidak mengisi grid apa pun.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*2 / 1.5 detik (Tanaman), 20*2 / 1 Detik (Teman Terbang)</color>\n<color=#3D1400>Spesial: </color><color=red>Dapat ditanam di atas tanaman lain.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Kaktus + Blover</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1083,
+      "name": "Sea Star",
+      "introduce": "<size=24><color=#3D1400>\u0022Meskipun namaku mirip dengan hewan, itu hanyalah nama panggung,\u0022 jelas Sea Star. \u0022Aku seorang pesulap yang bisa mengeluarkan spora dengan berbagai bentuk.\u0022 Dia memiliki ketidaksukaan yang mendalam terhadap zombie yang menyelam, khawatir mereka akan mengungkap kebenaran: dia hanyalah sea-shroom dengan senjata air berbentuk bintang yang terletak di kepalanya.</color></size>",
+      "info": "<size=24>Menyerang dua kali saat sepenuhnya tumbuh.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*5 → 20*5*2 / 1.5 Detik</color>\n<color=#3D1400>Waktu Pertumbuhan: </color><color=red>60 Detik</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Sea-shroom + Starfruit</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1084,
+      "name": "Starblover",
+      "introduce": "<size=24><color=#3D1400>\u0022Kumpulkan bintang-bintang di sekitarku dan berikan kepada mereka yang berdoa pada bintang jatuh,\u0022 dengan bangga menyatakan Starblover, percaya bahwa ini adalah misi yang mulia. Namun, tidak semua orang menghargainya—terutama saat hujan bintang datang langsung ke arah mereka.</color></size>",
+      "info": "<size=24>Menarik bintang untuk berputar di sekelilingnya dan meluncurkannya.\n\n<color=#3D1400>Spesial: </color><color=red>Menarik peluru bintang terdekat. Setelah 6 detik, menembakkannya sebagai peluru pelacak dengan dua kali kecepatan dan kerusakan. Menarik hingga 20 peluru maksimum.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Blover + Starfruit</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1085,
+      "name": "Starthorn",
+      "introduce": "<size=24><color=#3D1400>Starthorn selalu menjadi sedikit aneh. Tanaman-tanaman bercanda, \u0022Dia selalu di tanah tetapi hanya melawan zombie terbang. Kenapa dia tidak mengejar yang ada di tanah?\u0022 Starthorn, yang selalu sabar, tidak berkata apa-apa, diam-diam melindungi rahasianya: penglihatannya yang buruk hanya membolehkannya melihat langit ketika dia berbaring.</color></size>",
+      "info": "<size=24>Hanya bisa menyerang zombie di langit.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*5/1.5 Detik</color>\n<color=#3D1400>Spesial: </color><color=red>Peluru melacak zombie terbang di seluruh papan.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Kaktus + Starfruit</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1086,
+      "name": "Sea Blow-shroom",
+      "introduce": "<size=24><color=#3D1400>Sea Blow-shroom memiliki aspirasi sebesar naga. Menguasai seni kuno 'Feng Shui' dari Timur, ia tahu betul posisi yang membawa keberuntungan dan yang sial. Memahami bahwa angin dan air saling melengkapi, ia berharap bisa menjauhkan nasib buruk, baik saat melayang di langit maupun meluncur di air.</color></size>",
+      "info": "<size=24>Menghilangkan kabut dan mendorong zombie di dalam air.\n\n<color=#3D1400>Spesial: </color><color=red>Menghilangkan kabut dan menangkis zombie air.</color>\n<color=#3D1400>Rumus Fusi: </color><color=red>Sea-shroom + Blover</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1087,
+      "name": "Jack O' Lantern",
+      "introduce": "<size=24><color=#3D1400>Jack O' Lantern bersikeras bahwa ia sering bertemu hantu, tapi apakah mereka benar-benar ada? Siapa yang bisa memastikan? Mungkin ia hanya terseret ke dalam pesta Halloween lainnya oleh seseorang yang ingin mendapatkan sedikit ketakutan.</color></size>",
+      "info": "<size=24>Di area kecil, menghilangkan kabut dan meningkatkan Level Lumos untuk tanaman Lumos di dalamnya.\n\n<color=#3D1400>Ketahanan: </color><color=red>4000</color>\n<color=#3D1400>Sistem Lumos: </color><color=red>Memberikan 1 Level Lumos dalam grid 3x3. Memulihkan 150 Ketahanan per Level Lumos setiap 15 detik.</color>\n<color=#3D1400>Rumus Fusi: </color><color=red>Plantern + Pumpkin</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1088,
+      "name": "Thorngourd",
+      "introduce": "<size=24><color=#3D1400>Thorngourd mungkin terlihat seperti kerabat jauh dari Pumpkin, tetapi bentuknya saat ini berasal dari petualangan gurun bersama Blover. Anehnya, ia tidak tampak memiliki duri yang terlihat, tetapi tanaman yang mencoba melompat ke dalamnya selalu terkena tusukan, meninggalkan mereka bertanya-tanya bagaimana itu bisa terjadi.</color></size>",
+      "info": "<size=24>Melawan balik zombie yang menggigitnya.\n\n<color=#3D1400>Ketahanan: </color><color=red>4000</color>\n<color=#3D1400>Spesial: </color><color=red>Merusak musuh yang menyerang.</color>\n<color=#3D1400>Rumus Fusi: </color><color=red>Cactus + Pumpkin</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1089,
+      "name": "Stargourd",
+      "introduce": "<size=24><color=#3D1400>Orang sering bertanya-tanya berapa banyak bahasa yang harus diketahui Stargourd untuk berkomunikasi dengan semua tanaman. Stargourd tersenyum dan berkata, 'Sebenarnya, saya hanya berbicara bahasa Starfruit, karena dia satu-satunya yang saya ajak kerja sama erat.'</color></size>",
+      "info": "<size=24>Membantu Starblover menyimpan lebih banyak bintang.\n\n<color=#3D1400>Ketahanan: </color><color=red>4000</color>\n<color=#3D1400>Spesial: </color><color=red>Meningkatkan batas penyimpanan Starblover hingga 60.</color>\n<color=#3D1400>Rumus Fusi: </color><color=red>Starfruit + Pumpkin</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1090,
+      "name": "Split Pea",
+      "introduce": "<size=24><color=#3D1400>Saudara Split Pea selalu bertengkar tentang arah terbaik untuk menembak—maju atau mundur. Tapi sekarang mereka telah menemukan solusi cerdik: biarkan peluru memantul. Masalah selesai!</color></size>",
+      "info": "<size=24>Split Peas menembakkan kacang ke depan dan ke belakang.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*3/1.5 Detik</color>\n<color=#3D1400>Spesial: </color><color=red>Kacang yang ditembakkan ke belakang akan memantul dan bergerak ke depan.</color>\n<color=#3D1400>Rumus Fusi: </color><color=red>Repeater + Peashooter</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1091,
+      "name": "Windgourd",
+      "introduce": "<size=24><color=#3D1400>Bagi Windgourd, penampilan yang baik adalah prioritas utama. Ia tidak pernah meninggalkan rumah tanpa terlebih dahulu menghabiskan setengah jam untuk merapikan daun di kepalanya, memastikan gaya yang sempurna.</color></size>",
+      "info": "<size=24>Setiap beberapa saat, Blover akan muncul untuk menghilangkan kabut.\n\n<color=#3D1400>Ketahanan: </color><color=red>4000</color>\n<color=#3D1400>Spesial: </color><color=red>Memproduksi Blover setiap 30 detik.</color>\n<color=#3D1400>Rumus Fusi: </color><color=red>Blover + Pumpkin</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1092,
+      "name": "Pumpkin Lure",
+      "introduce": "<size=24><color=#3D1400>Berjalan keluar membuat Pumpkin Lure merinding. Ia selalu takut alat makan besi akan tiba-tiba menempel di wajahnya, mengubah makan malam yang menyenangkan menjadi pengalaman canggung.</color></size>",
+      "info": "<size=24>Dapat berfusi dengan bahan besi dari zombie untuk menyerap sifat mereka.\n\n<color=#3D1400>Ketahanan: </color><color=red>4000</color>\n<color=#3D1400>Sistem Magnet: </color><color=red>Tanaman ini akan memberikan:\n(20 * Jumlah Tanaman Magnet di Sistem * Kecepatan Zombie) kepada zombie tertentu setiap 6 detik. Hanya Zombie dengan bahan magnetis atau kendaraan mekanis yang dapat terkena kerusakan dengan cara ini. Juga, mereka tidak boleh berada di langit atau bawah tanah.</color>\n<color=#3D1400>Rumus Fusi: </color><color=red>Pumpkin + Magnet-shroom</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1093,
+      "name": "Starpole",
+      "introduce": "<size=24><color=#3D1400>Starpole menyimpan impian seumur hidup: menyedot bintang dari langit. Ia menghabiskan setiap malam menatap langit berbintang, membayangkan hari ketika impiannya menjadi kenyataan.</color></size>",
+      "info": "<size=24>Dapat berfusi dengan bahan besi dari zombie untuk menyerap sifat mereka.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*5/1.5 Detik</color>\n<color=#3D1400>Spesial: </color><color=red>Memberikan kerusakan ganda pada zombie besi.</color>\n<color=#3D1400>Rumus Fusi: </color><color=red>Starfruit + Magnet-shroom</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1094,
+      "name": "Starjoker",
+      "introduce": "<size=24><color=#3D1400>Starjoker sering merasa tertekan karena dianggap sebagai badut sirkus, yang membuatnya merasa tidak puas. 'Saya mungkin terlihat konyol, tapi sebenarnya saya adalah superhero,' katanya. 'Saya mengambil Jack-in-the-Box zombie dan mengenakan kostum pahlawan di dalamnya!' Mungkin Magnet-shroom yang membantunya dalam pencurian tidak pernah menyebutkan dari mana kotak itu berasal.</color></size>",
+      "info": "<size=24>Menembakkan peluru bintang yang meledak saat terkena.\n\n<color=#3D1400>Kerusakan: </color><color=red>40*5/3 Detik</color>\n<color=#3D1400>Spesial: </color><color=red>Peluru meledak dan memberikan sedikit kerusakan splash saat terkena.</color>\n<color=#3D1400>Rumus Fusi: </color><color=red>(Starfruit + Magnet-shroom) + Jack-in-the-Box (Dalam Urutan)</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1095,
+      "name": "Starpick",
+      "introduce": "<size=24><color=#3D1400>'Ini sangat mirip dengan pahat,' komentar Starpick, dengan nada bercanda. 'Saya bisa merasakan sebagian diri saya tertanam di tanah, dan itu cukup menyenangkan—kecuali jika Anda terganggu oleh serangga seperti kaki seribu.' Dengan senyuman nakal, ia menantang, 'Mengapa tidak coba lepas topi saya? Anda akan menemukan saya bahkan lebih mirip dengan pahat daripada Anda!'</color></size>",
+      "info": "<size=24>Pickfruit bersembunyi di bawah tanah: zombie tidak akan menyerangnya.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*5/1.5 Detik</color>\n<color=#3D1400>Spesial: </color><color=red>Tidak dapat diserang.</color>\n<color=#3D1400>Rumus Fusi: </color><color=red>(Starfruit + Magnet-shroom) + Pickaxe</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1096,
+      "name": "Starsteel",
+      "introduce": "<size=24><color=#3D1400>Orang sering menggunakan foto kepala Starsteel dan Starpole untuk memperbesar hubungan mereka, yang sangat mengganggu keduanya. Sebenarnya, Starsteel hanya ingin menjadi dirinya sendiri - bintang dengan hati dari batu yang sulit berkarat.</color></size>",
+      "info": "<size=24>Menembakkan peluru bintang yang dilapisi dengan bahan metalik.\n\n<color=#3D1400>Ketahanan: </color><color=red>2000</color>\n<color=#3D1400>Kerusakan: </color><color=red>40*5/1.5 Detik</color>\n<color=#3D1400>Spesial: </color><color=red>Menolak balik saat terkena. Memberikan kerusakan besar pada Zombie Besi, dan menghancurkan pintu besi.</color>\n<color=#3D1400>Rumus Fusi: </color><color=red>(Starfruit + Magnet-shroom) + Besi (Dalam Urutan)</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1097,
+      "name": "Iron Pumpkin",
+      "introduce": "<size=24><color=#3D1400>'Saya berharap bisa lebih kuat,' pikir Iron Pumpkin. 'Mungkin jika saya terbuat dari berlian...' Steelfruit tersenyum dan menjawab, 'Bahkan itu tidak akan cukup! Anda perlu terbuat dari netherite!' Dalam banter semangat mereka, mereka melupakan kebenaran penting: mereka dapat menambah kekuatan mereka sendiri.</color></size>",
+      "info": "<size=24>Melindungi tanaman Anda dengan besi yang kokoh.\n\n<color=#3D1400>Ketahanan: </color><color=red>8000</color>\n<color=#3D1400>Rumus Fusi: </color><color=red>(Pumpkin + Magnet-shroom) + Besi</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1098,
+      "name": "Joker Pumpkin",
+      "introduce": "<size=24><color=#3D1400>'Setiap kali saya muncul, itu menandakan kedatangan badut. Semua orang penasaran apa yang ada di dalam kotaknya, tetapi hasilnya tetap menjadi misteri. Saya pernah melihat sekilas, dan momen itu mengubah segalanya untuk saya.'</color></size>",
+      "info": "<size=24>Dapat memblokir ledakan yang disebabkan oleh zombie Jack-in-the-Box.\n\n<color=#3D1400>Ketahanan: </color><color=red>4000</color>\n<color=#3D1400>Spesial: </color><color=red>Menetralkan kerusakan ledakan dari Jack-in-the-Box, melindungi tanaman di dalamnya.</color>\n<color=#3D1400>Rumus Fusi: </color><color=red>(Pumpkin + Magnet-shroom) + Jack-in-the-Box</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1099,
+      "name": "Miner Pumpkin",
+      "introduce": "<size=24><color=#3D1400>Pumpkin sering digunakan untuk melindungi tanaman di belakang dari serangan para penambang. Penasaran tentang cara menghentikan penambang agar tidak mengebor ke tanah, ia mengambil pahat mereka dan mempelajarinya. Akhirnya, ia mengembangkan teknologi baru yang memaksa penambang untuk menggali keluar dari tanah lebih awal.</color></size>",
+      "info": "<size=24>Dapat memblokir upaya penambangan oleh Zombie Penambang.\n\n<color=#3D1400>Ketahanan: </color><color=red>4000</color>\n<color=#3D1400>Spesial: </color><color=red>Memaksa Zombie Penambang untuk menggali lebih awal.</color>\n<color=#3D1400>Rumus Fusi: </color><color=red>(Pumpkin + Magnet-shroom) + Pickaxe</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1100,
+      "name": "Magled-shroom",
+      "introduce": "<size=24><color=#3D1400>\u0022Sejujurnya, aku ingin sekali menjadi Magnet-shroom yang sederhana,\u0022 pengakuan Magled-shroom. \u0022Dengan begitu, aku tidak perlu selalu berada di sorotan atau merasa tertekan menggunakan satu magnet untuk melakukan pekerjaan dua.\u0022</color></size>",
+      "info": "<size=24>Jarak atraksi dan waktu cooldown meningkat tergantung pada Tingkat Lumos.\n\n<color=#3D1400>Interval Magnet: </color><color=red>15 Detik (TL0) → 11 Detik → 7.5 Detik → 5 Detik (TL3)</color>\n<color=#3D1400>Jarak Magnet: </color><color=red>+1 (TL1) → +2 → +3</color>\n<color=#3D1400>Sistem Lumos: </color><color=red>Tingkat Lumos yang lebih tinggi akan memperpendek interval atraksi secara signifikan dan meningkatkan jarak atraksi. Saat berada di Tingkat Lumos 2, atraksi akan menyebabkan 200 kerusakan kepada zombie yang dekat dengan target atraksi.</color>\n<color=#3D1400>Formula Fusion: </color><color=red>Plantern + Magnet-shroom</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1101,
+      "name": "Sea Mag-shroom",
+      "introduce": "<size=24><color=#3D1400>Sea-shroom lainnya tidak mengerti mengapa Sea Mag-shroom bisa menyerap besi dan menjadi lebih besar serta lebih tinggi. \u0022Sederhana saja: E=mc²,\u0022 jelasnya, meskipun sebagian besar energi hilang di udara dan tidak digunakan sama sekali.</color></size>",
+      "info": "<size=24>Aneh sekali... Kenapa alat besi juga menjadi lebih besar saat dia tumbuh?\n\n<color=#3D1400>Interval Magnet: </color><color=red>15 Detik → 10 Detik</color>\n<color=#3D1400>Spesial: </color><color=red>Berkembang setelah menarik 3 kali.</color>\n<color=#3D1400>Formula Fusion: </color><color=red>Sea-shroom + Magnet-shroom</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1102,
+      "name": "Magblover",
+      "introduce": "<size=24><color=#3D1400>Tanaman sering memanggil Magblover \u0022Magneto.\u0022 Dia dengan percaya diri melancarkan mantra favoritnya, \u0022Pembongkaran!\u0022 kepada zombie, meskipun dia tidak tahu bagaimana konversi energi angin menjadi energi magnet bekerja di balik layar.</color></size>",
+      "info": "<size=24>Menarik semua objek besi yang ada.\n\n<color=#3D1400>Spesial: </color><color=red>Menarik hingga 10 objek besi.</color>\n<color=#3D1400>Formula Fusion: </color><color=red>Blover + Magnet-shroom</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1103,
+      "name": "Magcactus",
+      "introduce": "<size=24><color=#3D1400>Magcactus menghabiskan waktu belajar tentang gangguan komunikasi di Akademi Angkatan Udara, sering membanggakan nilai-nilainya yang luar biasa kepada teman-temannya. Yang tidak dia sadari adalah bahwa kesuksesannya sebagian besar berkat ayahnya, seorang komandan Angkatan Udara berpangkat tinggi yang menarik tali di balik layar.</color></size>",
+      "info": "<size=24>Dapat menyebabkan kerusakan tinggi pada objek terbang.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color>\n<color=#3D1400>Spesial: </color><color=red>Menyebabkan kerusakan dua kali lipat pada armor metalik. Mengakibatkan sejumlah kerusakan pada Kapal Udara dapat membuatnya jatuh, menyebabkan 1000 kerusakan kepada zombie yang dekat dengan lokasi jatuh.</color>\n<color=#3D1400>Formula Fusion: </color><color=red>Cactus + Magnet-shroom</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1104,
+      "name": "Starlure",
+      "introduce": "<size=24><color=#3D1400></color></size>",
+      "info": "<size=24>Memanggil meteor yang memberikan kerusakan dahsyat kepada zombie.\n\n<color=#3D1400>Kerusakan: </color><color=red>60*5/3 Detik</color>\n<color=#3D1400>Sistem Lumos: </color><color=red>Tingkat Lumos 1 hingga 3 memiliki efek yang sama seperti Starglow. Saat mencapai Tingkat Lumos 4, memanggil jenis meteor lain yang memiliki cooldown terpisah dari meteor yang asli.</color>\n<color=#3D1400>Sistem Magnet: </color><color=red>Setiap tanaman yang terhubung ke Sistem Magnet akan meningkatkan kerusakan peluru sebesar 5%.\n<color=purple>Kedua sistem dapat meningkatkan kerusakan peluru hingga 120, maksimum.</color>\n<color=#3D1400>Spesial: </color><color=red>Memanggil meteor yang jatuh ke tanah dan meledak menjadi bintang setiap 60 detik. Waktu cooldown dapat dikurangi dengan menghubungkan Starlure lainnya, hingga 13 untuk meningkatkan cooldown menjadi 25 detik.</color>\n<color=#3D1400>Formula Fusion:\n</color><color=red>Plantern + Magnet-shroom + Starfruit</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1105,
+      "name": "Snow Repeater",
+      "introduce": "<size=24><color=#3D1400>\u0022Apa yang terjadi padamu?\u0022 tanya sebuah tanaman penasaran kepada Snow Repeater. Dia tertawa kecil dan berkata, \u0022Aku masih Repeater di dalam hati. Aku hanya lupa untuk berselimut di bawah selimut selama malam musim dingin.\u0022</color></size>",
+      "info": "<size=24>Menembakkan dua kacang beku secara berurutan.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*2/1.5 Detik</color>\n<color=#3D1400>Formula Fusion: </color><color=red>Repeater + Ice-shroom</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1106,
+      "name": "Gatling Snow",
+      "introduce": "<size=24><color=#3D1400>\u0022Tangannya dingin, wajahnya dingin, hatinya dingin, dan bahkan darahnya dingin… Apakah dia beku?\u0022 seseorang bertanya dengan keras. Gatling Snow menggigil, meyakinkan tanaman yang khawatir, \u0022Aku tidak beku! Laras senapan mesinku masih terbakar panas!\u0022</color></size>",
+      "info": "<size=24>Gatling Snow menembakkan empat kacang beku sekaligus.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*4/1.5 Detik</color>\n<color=#3D1400>Formula Fusion: </color><color=red>Gatling Pea + Ice-shroom</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1107,
+      "name": "Split Snow",
+      "introduce": "<size=24><color=#3D1400>\u0022Jangan biarkan tampang dinginnya menipumu; mungkin ada kehangatan yang tersembunyi,\u0022 saran seseorang. Namun, Miner Zombie mencibir, \u0022Jangan buat asumsi bodoh. Orang ini hanya memiliki sisi dingin!\u0022</color></size>",
+      "info": "<size=24>Menembakkan kacang beku ke depan dan belakang.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*3/1.5 Detik</color>\n<color=#3D1400>Formula Fusion: </color><color=red>Split Pea + Ice-shroom</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1108,
+      "name": "Split Cherry",
+      "introduce": "<size=24><color=#3D1400>Cherryshooter merangkak keluar dari parit, bingung. \u0022Siapa yang melempar bom itu?\u0022 tanyanya. \u0022Maaf, saudara,\u0022 jawab Split Cherry dengan malu, \u0022Aku melihatmu mengarahkan senjata ke arah kami dan mengira kamu adalah zombie.\u0022</color></size>",
+      "info": "<size=24>Split Cherry menembakkan ceri ke depan dan belakang.\n\n<color=#3D1400>Kerusakan: </color><color=red>60*3/1.5 Detik</color>\n<color=#3D1400>Formula Fusion: </color><color=red>Split Pea + Cherry Bomb</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1109,
+      "name": "Sniper Pea",
+      "introduce": "<size=24><color=#3D1400>Dikenal karena penglihatannya yang tajam dan kekuatan yang kokoh, Sniper Pea sangat dihargai oleh rekan-rekan Peanya. Namun, selama barisan mereka, laras senjatanya sering kali mengarah ke belakang kepala mereka, menciptakan momen tegang sepanjang perjalanan.</color></size>",
+      "info": "<size=24>Menyasar zombie di seluruh peta untuk memberikan kerusakan besar.\n\n<color=#3D1400>Kerusakan: </color><color=red>500/3 Detik</color>\n<color=#3D1400>Spesial: </color><color=red>Headshot sekali setiap 6 serangan, langsung membunuh zombie.</color></size>",
+      "cost": "<size=24><color=purple>Kondisi Penggunaan: Mode Pertahanan Menara Peta Besar</color></size>"
+    },
+    {
+      "seedType": 1110,
+      "name": "<size=30>Bloverthorn Pumpkin",
+      "introduce": "<size=24><color=#3D1400>Bloverthorn Pumpkin selalu menyimpan tiga buku di raknya, dengan judul yang tersembunyi dari mata penasaran tanaman lainnya. Suatu hari, rasa ingin tahu sebuah Thornball membawanya ke dalam studi, di mana dia menemukan judul-judul: \u0022Panduan Budidaya Tanaman Succulent,\u0022 \u0022Perawatan Pascalahir untuk Labu,\u0022 dan \u0022Tutorial Penerbangan Cepat Kaktus 30 Detik.\u0022 Thornball tertawa melihat koleksi yang tak terduga.</color></size>",
+      "info": "<size=24>Memunculkan Thornball yang bergerak di lapangan untuk menyerang zombie terbang.\n\n<color=#3D1400>Kekuatan: </color><color=red>4000</color>\n<color=#3D1400>Spesial: </color><color=red>Selalu memiliki teman Thornball saat dia muncul. Menghasilkan Thornball di atas grid 3x3 secara teratur.</color>\n<color=#3D1400>Formula Fusion: </color><color=red>Pumpkin + Cactus + Blover</color></size>",
+      "cost": ""
+    }
+  ]
+}
