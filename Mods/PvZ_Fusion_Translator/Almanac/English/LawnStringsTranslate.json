@@ -1105,6 +1105,342 @@
       "introduce": "<size=24><color=#3D1400>Bloverthorn Pumpkin selalu menyimpan tiga buku di raknya, dengan judul yang tersembunyi dari mata penasaran tanaman lainnya. Suatu hari, rasa ingin tahu sebuah Thornball membawanya ke dalam studi, di mana dia menemukan judul-judul: \u0022Panduan Budidaya Tanaman Succulent,\u0022 \u0022Perawatan Pascalahir untuk Labu,\u0022 dan \u0022Tutorial Penerbangan Cepat Kaktus 30 Detik.\u0022 Thornball tertawa melihat koleksi yang tak terduga.</color></size>",
       "info": "<size=24>Memunculkan Thornball yang bergerak di lapangan untuk menyerang zombie terbang.\n\n<color=#3D1400>Kekuatan: </color><color=red>4000</color>\n<color=#3D1400>Spesial: </color><color=red>Selalu memiliki teman Thornball saat dia muncul. Menghasilkan Thornball di atas grid 3x3 secara teratur.</color>\n<color=#3D1400>Formula Fusion: </color><color=red>Pumpkin + Cactus + Blover</color></size>",
       "cost": ""
+    },
+    {
+      "seedType": 26,
+      "name": "<size=24>Cabbage-pult",
+      "introduce": "<size=24><color=black>Ada yang mengatakan cinta itu seperti kubis; kita harus mengupasnya lapis demi lapis untuk melihat hati orang lain. Tapi Cabbage-pult agak ragu dengan ini, karena ia sendiri masih lajang.</color>",
+      "info": "<size=24>Meluncurkan kubis untuk menyerang zombie.\n\n<color=black>Kerusakan: </color><color=#8B0000>40/3 Detik</color>\n<color=black>",
+      "cost": "<size=24>Biaya: <color=#8B0000>100</color>\nWaktu Isi Ulang: <color=#8B0000>7.5 Detik</color>"
+    },
+    {
+      "seedType": 27,
+      "name": "<size=24>Flower Pot",
+      "introduce": "<size=24><color=black>Tumbuhan sering berpikir Flower Pot hanyalah sebuah \u0022pot,\u0022 tapi sebenarnya, Flower Pot adalah sebuah \u0022bunga\u0022 yang tampak seperti \u0022pot.\u0022 Lihatlah, tunas kecil itu adalah kuncup bunga.</color>",
+      "info": "<size=24>Memungkinkan penanaman tumbuhan di atasnya.\n\n<color=black>Khusus: </color><color=#8B0000>Memungkinkan tumbuhan ditanam di atap.</color>",
+      "cost": "<size=24>Biaya: <color=#8B0000>25</color>\nWaktu Isi Ulang: <color=#8B0000>7.5 Detik</color>"
+    },
+    {
+      "seedType": 28,
+      "name": "<size=24>Kernel-pult",
+      "introduce": "<size=24><color=black>Tumbuhan penasaran dari mana asal mentega Kernel-pult. Kernel-pult juga tidak tahu, tapi itu tidak menghentikannya membuat popcorn di waktu luangnya untuk mendapatkan sedikit penghasilan tambahan.</color>",
+      "info": "<size=24>Melempar biji jagung untuk menyerang zombie dan juga dapat melempar mentega untuk melumpuhkannya.\n\n<color=black>Kerusakan: </color><color=#8B0000>20/3 Detik</color>\n<color=black>Khusus: </color><color=#8B0000>Peluang 1/4 untuk melempar mentega, memberikan kerusakan 40 dan melumpuhkan zombie selama 4 detik.</color>",
+      "cost": "<size=24>Biaya: <color=#8B0000>100</color>\nWaktu Isi Ulang: <color=#8B0000>7.5 Detik</color>"
+    },
+    {
+      "seedType": 29,
+      "name": "<size=24>Garlic",
+      "introduce": "<size=24><color=black>Garlic membanggakan kandungan allicin yang tinggi, mengklaim bahwa makan bawang putih baik untuk kesehatan. Benar atau tidaknya, cukup lihat zombie yang muntah saat menggigitnya untuk mengetahui bahwa itu cukup efektif.</color>",
+      "info": "<size=24>Setiap zombie yang mencoba menggigitnya akan berpindah jalur.\n\n<color=black>Khusus: </color><color=#8B0000>Zombie yang menggigit akan berpindah jalur.</color>",
+      "cost": "<size=24>Biaya: <color=#8B0000>50</color>\nWaktu Isi Ulang: <color=#8B0000>7.5 Detik</color>"
+    },
+    {
+      "seedType": 30,
+      "name": "<size=24>Umbrella Leaf",
+      "introduce": "<size=24><color=black>Dulunya seorang pemain hebat, Umbrella Leaf adalah bintang di NBA Tanaman-Zombie ke-114. Namun seiring bertambahnya usia, ia menyadari bahwa ia mulai botak.</color>",
+      "info": "<size=24>Menangkis bola basket yang datang.\n\n<color=black>Khusus: </color><color=#8B0000>Dapat memantulkan bola basket dalam area 3×3.</color>",
+      "cost": "<size=24>Biaya: <color=#8B0000>75</color>\nWaktu Isi Ulang: <color=#8B0000>7.5 Detik</color>"
+    },
+    {
+      "seedType": 31,
+      "name": "<size=24>Marigold",
+      "introduce": "<size=24><color=black>Marigold sangat kaya, jadi ia suka menghabiskan uang dengan bebas—meskipun secara teknis, ia tidak punya tangan atau kaki.</color>",
+      "info": "<size=24>Menghasilkan koin, koin perak, dan berlian.\n\n<color=black>Interval Produksi: </color><color=#8B0000>25 Detik</color>\n<color=black>Jumlah Koin:\n</color><color=#8B0000>Peluang 75% = 100 Koin\nPeluang 20% = 300 Koin\nPeluang 5% = 1000 Koin</color>",
+      "cost": "<size=24>Biaya: <color=#8B0000>25</color>\nWaktu Isi Ulang: <color=#8B0000>7.5 Detik</color>"
+    },
+    {
+      "seedType": 32,
+      "name": "<size=24>Melon-pult",
+      "introduce": "<size=24><color=black>Di waktu istirahat, Melon-pult suka membelah lengan melon miliknya untuk digigit sedikit demi sedikit sebagai pendingin. \u0022Mau coba?\u0022 tanyanya pada zombie dengan riang, sementara tumbuhan di sekitarnya hanya bisa menelan ludah karena kepanasan.</color>",
+      "info": "<size=24>Meluncurkan melon untuk memberikan kerusakan pada zombie.\n\n<color=black>Kerusakan: </color><color=#8B0000>80/3 Detik</color>",
+      "cost": "<size=24>Biaya: <color=#8B0000>300</color>\nWaktu Isi Ulang: <color=#8B0000>7.5 Detik</color>"
+    },
+    {
+      "seedType": 914,
+      "name": "<size=24>Wither-pult",
+      "introduce": "<size=24><color=black>Setelah melewati berbagai kesulitan di masa lalu, Wither-pult kini mendambakan hidup yang tenang. \"Yang aku inginkan sekarang hanyalah menonton film klasik dan hidup damai.\"</color>",
+      "info": "<size=24>Mampu menembakkan proyektil secara cepat dan menyebar.\n\n<color=black>Kerusakan: </color><color=#8B0000>200/3 Detik</color>\n<color=black>Keistimewaan: </color><color=#8B0000>Peluang 42% untuk menembak cepat. Memiliki peluang yang sama untuk menembak sejumlah proyektil yang setara dengan jumlah zombie di jalurnya. Proyektil terbagi menjadi bawang putih, jagung, dan melon saat terkena dampak.</color>\n<color=black>Formula Fusi: </color><color=#8B0000>Salad-pult + Garlic-pult</color>\n<color=black>Peningkatan Odyssey:\n<color=#8B0000>1. Penembakan menyebar kini dijamin\n2. Ciri khas Melon Pot diwarisi</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 915,
+      "name": "<size=24>Cob-livion Cannon",
+      "introduce": "<size=24><color=black>Dibalut baju besi es dan gelap sebagai peringatan, setiap tembakan Cob-livion Cannon membawa kehancuran. Zombie yang terkena tak perlu bersiap—tidak ada yang tersisa setelah kilatan tersebut.</color>",
+      "info": "<size=24>Memiliki kekuatan dahsyat.\n\n<color=black>Kerusakan: </color><color=#8B0000>Ledakan Utama - 1800 di area 3x3. Tambahan 1800 + 30% dari HP maksimum Zombie di seluruh layar. Senjata samping: 300*2/1.5 Detik dengan efek lambat </color>\n<color=black>Waktu Persiapan: </color><color=#8B0000>36 Detik</color>\n<color=black>Formula Fusi: </color><color=#8B0000>Cryo Cannon + Cryodoom-shroom</color>\n<color=black>Peningkatan Odyssey:\n<color=#8B0000>1. Waktu muat ulang berkurang menjadi 12 Detik\n2. Kerusakan Ledakan Utama meningkat sebesar 3600</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 916,
+      "name": "<size=24>Midas Umbrella",
+      "introduce": "<size=24><color=black>Dari tampilannya, Anda bisa melihat bahwa Midas Umbrella pandai dalam berbisnis. \"Benar sekali, topi zamrud ini adalah barang dagangan yang kutukar dengan seseorang dari tempat penuh balok...\"</color>",
+      "info": "<size=24>Kombinasi dari Alchemist Umbrella dan Umbrella Kale.\n\n<color=black>Ketahanan: </color><color=#8B0000>4000</color>\n<color=black>Keistimewaan: </color><color=#8B0000>Memiliki ciri khas dari kedua bahan pembuatnya. Juga memungkinkan proyektil mengenai zombie di dua baris bawah. Kemampuan akhir Coffee Bean dapat langsung membunuh zombie dengan HP di bawah 50%.</color>\n<color=black>Formula Fusi:\n</color><color=#8B0000>Midas Umbrella + Umbrella Kale</color>\n<color=black>Peningkatan Odyssey:\n<color=#8B0000>1. Proyektil akan terus memantul di antara Midas Umbrella lain hingga yang terakhir. Setiap pantulan meningkatkan kerusakan proyektil sebesar 1.8x.\n2. Mengaktifkan kemampuan akhir secara otomatis jika zombie berada dekat. Waktu muat ulang 7,5 detik.</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1111,
+      "name": "<size=24>Solar-Pult",
+      "introduce": "<size=24><color=black>Beberapa orang bertanya mengapa Matahari kecil dari Solar-pult menghilang saat dilempar ke sisi kanan atap. Solar-pult hanya tersenyum: \"Menurutmu, dari mana Matahari halaman depan berasal?\"</color>",
+      "info": "<size=24>Meluncurkan kol khas surya untuk menyerang zombie dan juga dapat menghasilkan Matahari.\n\n<color=black>Kerusakan: </color><color=#8B0000>50/5 Detik</color>\n<color=black>Keistimewaan: </color><color=#8B0000>Mengembalikan 100 Matahari saat fusi. Setiap tembakan memantul sekali setelah mengenai zombie. Untuk setiap 200 Matahari, tembakan dapat memantul satu kali tambahan; saat terkena zombie atau tanah, akan jatuh 5 Matahari.</color>\n<color=black>Formula Fusi: </color><color=#8B0000>Sunflower + Cabbage-pult</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1112,
+      "name": "<size=24>Cabbage Pot",
+      "introduce": "<size=24><color=black>\"Aku bukan hanya pot untuk menyimpan kol! Cabbage-pult bukanlah tanaman terlemah... Cabbage-pult dan aku adalah teman terbaik,\" kata Cabbage Pot dengan percaya diri. Sebenarnya, salah satunya berambut lepek, dan yang lainnya botak.</color>",
+      "info": "<size=24>Memberikan bonus kecepatan serang 50% untuk tanaman jenis Kol di atasnya.\n\n<color=black>Keistimewaan: </color><color=#8B0000>Memberikan peningkatan kecepatan serang sebesar 50% untuk tanaman jenis Kol.</color>\n<color=black>Formula Fusi: </color><color=#8B0000>Flower Pot + Cabbage-pult</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1113,
+      "name": "<size=24>Taco-pult",
+      "introduce": "<size=24><color=black>Taco-pult selalu bertanya-tanya mengapa, meskipun telah mempelajari keterampilan dari Kernel-pult dan tampil baik di medan perang, Dave sulit menatapnya dan bahkan menghindarinya. Sebenarnya, itu karena Taco-pult terlalu mirip dengan taco, dan setiap kali Dave melihatnya, ia ingin mengambilnya dan memakannya.</color>",
+      "info": "<size=24>Meluncurkan taco yang dapat memantul sekali untuk menyerang zombie, dan juga bisa melempar mentega.\n\n<color=black>Kerusakan: </color><color=#8B0000>60/3 Detik</color>\n<color=black>Keistimewaan: </color><color=#8B0000>Proyektil memantul sekali. Memiliki peluang 1/4 untuk melempar mentega, yang memberikan 80 kerusakan dan melumpuhkan zombie selama 4 detik.</color>\n<color=black>Formula Fusi: </color><color=#8B0000>Cabbage-pult + Kernel-pult</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1114,
+      "name": "<size=24>Kernel Pot",
+      "introduce": "<size=24><color=black>Kernel Pot merasa dirinya lebih dari sekadar lezat. Menurutnya, jagung mentega memberikan lebih banyak nutrisi daripada tanah, terutama bagi jamur. Bunga favorit Kernel Pot adalah buttercup, makanan favoritnya mentega, wadah favoritnya mug, dan lagu favoritnya \"Buttercup.\"</color>",
+      "info": "<size=24>Meningkatkan peluang mentega untuk semua tanaman jenis Kernel di atasnya dari 25% menjadi 50%.\n\n<color=black>Keistimewaan: </color><color=#8B0000>Meningkatkan peluang mentega dari 1/4 menjadi 1/2.</color>\n<color=black>Formula Fusi: </color><color=#8B0000>Flower Pot + Kernel-pult</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1115,
+      "name": "<size=24>Umbrella Husk",
+      "introduce": "<size=24><color=black>\"Melindungi tanaman di sekitarku adalah tugasku.\" Sebagai cosplayer profesional, \"Umbrella Husk\" begitu mahir hingga tak ada yang menyadari bahwa dia sebenarnya adalah jagung dengan wig mentega, yang suka berdiri dengan kepala di bawah.</color>",
+      "info": "<size=24>Mendorong mundur zombie yang mencoba mendekat dan melumpuhkannya dengan mentega.\n\n<color=black>Keistimewaan: </color><color=#8B0000>Mendorong mundur zombie di sekitar dan melumpuhkannya selama 4 detik; setiap dorongan mengurangi Ketahanan sebesar 20.</color>\n<color=black>Formula Fusi: </color><color=#8B0000>Kernel-pult + Umbrella Leaf</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1116,
+      "name": "<size=24>Winter Melon",
+      "introduce": "<size=24><color=black>Winter Melon pernah mengaku pada Melon-pult, \"Aku dulunya tidak selalu sedingin ini. Suatu hari aku hanya masuk ke freezer untuk mengambil es krim, dan… yah, jadilah seperti ini.\"</color>",
+      "info": "<size=24>Meluncurkan melon beku yang memperlambat zombie.\n\n<color=black>Kerusakan: </color><color=#8B0000>80/3 Detik</color>\n<color=black>Sistem Cryo: </color><color=#8B0000>Memberikan 50 Poin Cryo pada zombie yang terkena. Zombie di area percikan mendapat 5 Poin Cryo. Memberikan kerusakan 4x pada zombie yang beku.</color>\n<color=black>Formula Fusi: </color><color=#8B0000>Melon-pult + Ice-shroom</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1117,
+      "name": "<size=24>Clove-pult",
+      "introduce": "<size=24><color=black>\"Di tahun 90-an, orang percaya bahwa cara terbaik menghadapi zombie adalah dengan bubuk jagung dan darah anjing hitam. Bagi kami para tanaman, bawang putih adalah sumber strategis,\" kata Clove-pult dengan bijak.</color>",
+      "info": "<size=24>Memiliki peluang untuk melempar mentega bawang putih yang melumpuhkan zombie selama 4 detik dan memaksa mereka pindah jalur, sambil mengumpulkan Poin Racun untuk memberikan efek Racun.\n\n<color=black>Kerusakan: </color><color=#8B0000>20/3 Detik</color>\n<color=black>Sistem Racun: </color><color=#8B0000>Setiap serangan mengumpulkan 1 Poin Racun, maksimal 5. Pada 5 poin, efek Racun diberikan. Memiliki peluang 1/4 untuk melempar mentega bawang putih, melumpuhkan zombie selama 4 detik, memaksa berpindah jalur, dan menghilangkan batas maksimum Poin Racun. Zombie kehilangan (20 × Poin Racun) HP / detik saat terkena racun.</color>\n<color=black>Formula Fusi: </color><color=#8B0000>Kernel-pult + Garlic</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1118,
+      "name": "<size=24>Garbage-pult",
+      "introduce": "<size=24><color=black>\"Kombinasi kol dan bawang putih itu segar, lezat, dan sehat, serta mudah dibuat. Menambahkan beberapa siung bawang putih sebelum disajikan akan meningkatkan rasa,\" jelas Chef Garlic. Makan bawang putih juga dikatakan dapat mencegah kerontokan rambut.</color>",
+      "info": "<size=24>Meluncurkan proyektil yang memantul sekali, dan setiap kali mengenai zombie dengan Poin Racun lebih dari 0, dapat memantul lagi. Tidak ada batas waktu memantul, dan setiap serangan mengumpulkan 1 Poin Racun.\n\n<color=black>Kerusakan: </color><color=#8B0000>40/3 Detik</color>\n<color=black>Keistimewaan: </color><color=#8B0000>Setiap zombie yang terkena menambah 1 Poin Racun. Lihat Clove-pult untuk detailnya.</color>\n<color=black>Formula Fusi: </color><color=#8B0000>Cabbage-pult + Garlic</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1119,
+      "name": "<size=24>Garlic-pult",
+      "introduce": "<size=24><color=black>Hanya sedikit yang berani bersikap angkuh di depan Garlic-pult. Kebanyakan akan mengambil jalan memutar saat melihatnya, meski ia tak berniat menakut-nakuti. Dia tak lagi mencari popularitas sebagai koki, namun berharap dapat berteman dengan yang menghargai manfaat allicin. Kini, tanaman lain akhirnya menerima pesonanya yang unik, dengan bawang putih dan semuanya.</color>",
+      "info": "<size=24>Mengumpulkan 1 Poin Racun untuk semua zombie di dalam radius percikan bawang putih; setiap Poin Racun menambah 5 kerusakan pada serangan percikan.\n\n<color=black>Kerusakan: </color><color=#8B0000>80/3 Detik</color>\n<color=black>Keistimewaan: </color><color=#8B0000>Setiap serangan menambah 1 Poin Racun ke target; lihat deskripsi Clove-pult untuk detailnya.</color>\n<color=black>Formula Fusi: </color><color=#8B0000>Melon-pult + Garlic</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1120,
+      "name": "<size=24>Cob Cannon",
+      "introduce": "<size=24><color=black>Cob Cannon dikenal sebagai sosok yang cerdas—rumor mengatakan ia pernah belajar di Harvard dan bekerja di firma hukum ternama di New York. Dikenal dengan kekuatan luar biasa, satu tembakan dari Cob Cannon bisa menghancurkan area zombie yang luas. Namun, sumber energi hebatnya tetap menjadi misteri.</color>",
+      "info": "<size=24>Dapat ditembakkan secara manual untuk meluncurkan tongkol jagung mematikan yang menyebabkan kerusakan kremator.\n\n<color=black>Kerusakan: </color><color=#8B0000>1800 (Kremator)</color>\n<color=black>Waktu Persiapan: </color><color=#8B0000>36 Detik</color>\n<color=black>Keistimewaan: </color><color=#8B0000>Harus ditanam di atas dua Kernel-pults.</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1121,
+      "name": "<size=24>Corn-pult",
+      "introduce": "<size=24><color=black>Corn-pult sering terlihat cemberut. Ketika ditanya alasannya, ia diam saja. \"Orang-orang terus bertanya apakah Jagung Mentega itu lengket atau manis,\" Corn-pult menghela napas. \"Mengapa bertanya padaku? Aku tidak memakannya. Hanya zombie yang tahu.\"</color>",
+      "info": "<size=24>Melemparkan jagung besar ke arah zombie; kadang-kadang jagungnya dilapisi mentega.\n\n<color=black>Kerusakan: </color><color=#8B0000>100/3 Detik</color>\n<color=black>Keistimewaan: </color><color=#8B0000>Memiliki peluang 1/4 untuk melempar Jagung Mentega, melumpuhkan target utama selama 4 detik dan zombie di area percikan selama (4 / total penyebaran percikan) detik, dengan minimal 0,5 detik. Pada 0,5 detik, zombie tidak akan menunjukkan efek mentega di kepala mereka tetapi tetap akan lumpuh.</color>\n<color=black>Formula Fusi: </color><color=#8B0000>Melon-pult + Kernel-pult</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1122,
+      "name": "<size=24>Pyro Cannon",
+      "introduce": "<size=24><color=black>Pyro Cannon memiliki bisnis popcorn yang booming. Aroma pedasnya membuat zombie lari ketakutan, menambah semarak di setiap acara. Ia bahkan mempertimbangkan sesi hot pot bersama Jalapeno segera.</color>",
+      "info": "<size=24>Digunakan secara manual untuk menembakkan proyektil berapi yang meledak, menyebabkan kerusakan tinggi dan membakar zombie, serta menginfus tanaman di sekitarnya dengan Jalapeno.\n\n<color=black>Kerusakan: </color><color=#8B0000>3600 (Kremator), menyebabkan efek Terbakar</color>\n<color=black>Keistimewaan: </color><color=#8B0000>Menginjeksi tanaman dalam radius ledakannya dengan Jalapeno.</color>\n<color=black>Formula Fusi: </color><color=#8B0000>Cob Cannon + Jalapeno</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1123,
+      "name": "<size=24>Cryo Cannon",
+      "introduce": "<size=24><color=black>Di balik tampilannya yang dingin, Cryo Cannon sebenarnya berhati hangat, terutama untuk teman-temannya. Di waktu luangnya, ia senang bermain ski, menabuh drum, dan menjelajah gua. Trik andalannya di pesta? Cerita lucu yang bisa \u0022mendinginkan\u0022 suasana.</color>",
+      "info": "<size=24>Digunakan secara manual untuk menembakkan proyektil pembeku yang melukai zombie dan menginfus tanaman dengan Ice-shroom.\n\n<color=black>Kerusakan: </color><color=#8B0000>1800 (Kremator), memperlambat</color>\n<color=black>Keistimewaan: </color><color=#8B0000>Menginjeksi tanaman dalam radius ledakannya dengan Ice-shroom.</color>\n<color=black>Formula Fusi: </color><color=#8B0000>Cob Cannon + Ice-shroom</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1124,
+      "name": "<size=24>Stuffed Melon",
+      "introduce": "<size=24><color=black>\"Kupas bagian luar yang hijau, dan Anda akan menemukan hati mawar di dalamnya.\" Ungkapan ini berarti jangan sembarangan masuk ke salon yang tidak dikenal—itu bisa menjadi keputusan yang mengejutkan. Melon Pot: \"Setelah menghabiskan semangka, mengenakan kulitnya di kepala adalah sesuatu yang dilakukan semua orang saat kecil.\" Flower Pot berkata, \"Jujur saja, itu agak konyol.\"</color>",
+      "info": "<size=24>Menembakkan melon yang memantul sekali.\n\n<color=black>Kerusakan: </color><color=#8B0000>120/3 Detik</color>\n<color=black>Formula Fusi: </color><color=#8B0000>Cabbage-pult + Melon-pult</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1125,
+      "name": "<size=24>Melon Pot",
+      "introduce": "<size=24><color=black>Melon Pot yang hemat tidak tahan melihat Melon-pult melempar melon tanpa memikirkan biaya, jadi setelah mengalahkan zombie, Melon Pot diam-diam mengumpulkan pecahan melon yang berserakan di tanah. \"Ini disebut budidaya tanpa tanah,\" jelas Melon Pot. \"Tidak semua tanaman bisa tumbuh di sini; setiap inci tanah sangat berharga.\"</color>",
+      "info": "<size=24>Melipatgandakan kerusakan area dari melon di atasnya, tanpa pengurangan; kerusakan tetap pada 2/3 dari kerusakan dasar.\n\n<color=black>Formula Fusi: </color><color=#8B0000>Flower Pot + Melon-pult</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1126,
+      "name": "<size=24>Salad-pult",
+      "introduce": "<size=24><color=black>\"Saat aku kecil, semua orang bertanya jenis Pult apa yang ingin kumiliki,\" kata Salad-pult. \"Mereka pikir tidak mungkin memiliki semuanya. Tapi aku memutuskan ingin segalanya—bahkan sejak saat itu.\"</color>",
+      "info": "<size=24>Dapat melontarkan proyektil campuran secara berturut-turut.\n\n<color=black>Kerusakan: </color><color=#8B0000>140/5 Detik</color>\n<color=black>Keistimewaan: </color><color=#8B0000>Peluang 42% untuk tembakan cepat. Proyektil terpecah menjadi campuran butiran jagung (peluang 1/4 untuk mentega) dan kol saat mengenai zombie.</color>\n<color=black>Formula Fusi: </color><color=#8B0000>Cabbage-pult + Kernel-pult + Melon-pult</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1127,
+      "name": "<size=24>Umbrella Clove",
+      "introduce": "<size=24><color=black>\"Ayo, beri Umbrella Clove pelukan. Kamu fokus membuka pintu; biarkan Umbrella Clove mengurus sisanya! RV tidak masalah; yang penting otak di dalamnya!\" kata Umbrella Clove. \"Dan satu hal lagi—lawan zombie dengan zombie! Sambil menuangkan teh untuk Umbrella Clove! Zombie, zombie, pergilah!\"</color>",
+      "info": "<size=24>Mendorong zombie dan memaksa mereka untuk berganti jalur.\n\n<color=black>Keistimewaan: </color><color=#8B0000>Mendorong zombie di sekitarnya, memaksa mereka berganti jalur, dan memberikan 20 kerusakan setiap kali diaktifkan.</color>\n<color=black>Formula Fusi: </color><color=#8B0000>Garlic + Umbrella Leaf</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1128,
+      "name": "<size=24>Umbrella Kale",
+      "introduce": "<size=24><color=black>Saat ditanya tentang rahasia kesuksesannya, Umbrella Kale menjawab, \"Sebenarnya, aku hanya senang membiarkan bola-bola beristirahat di kepalaku.\" Ia terdiam sejenak, \"Tapi tanaman lain semua memujiku sebagai pelindung terbaik.\"</color>",
+      "info": "<size=24>Dapat memantulkan proyektil jenis pelontar. Jika tidak ada zombie, dapat menyimpan proyektil sementara dan secara signifikan meningkatkan kerusakannya.\n\n<color=black>Keistimewaan: </color><color=#8B0000>Diprioritaskan oleh pelontar untuk dijadikan sasaran dan meningkatkan kerusakan proyektil sebesar 80%.</color>\n<color=black>Formula Fusi: </color><color=#8B0000>Umbrella Leaf + Cabbage-pult</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1129,
+      "name": "<size=24>Mecha-Nut",
+      "introduce": "<size=24><color=black>Beberapa mungkin tidak menyadarinya, tetapi Wall-nuts memiliki penemu dalam komunitas mereka. Terinspirasi oleh senjata zombie, mereka membangun mesin perang mereka sendiri. \"Teknologi zombie, ironisnya, hanya menghancurkan dirinya sendiri,\" kata Mecha-nut.</color>",
+      "info": "<size=24>Dapat menerima atribut dari Jalapeno atau Ice-shroom, dengan efek saat hancur.\n\n<color=black>Ketahanan: </color><color=#8B0000>8000</color>\n<color=black>Keistimewaan: </color><color=#8B0000>Berubah bentuk saat terkena efek Ice-shroom atau Jalapeno, menyembuhkan 3000 ketahanan saat transformasi; melepaskan efek bentuk saat ini ketika hancur.</color>\n<color=black>Formula Fusi: </color><color=#8B0000>Wall-nut + Mecha Fragments</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1130,
+      "name": "<size=24>Garlic Pot",
+      "introduce": "<size=24><color=black>Garlic Pot sudah lama ingin membantu tanaman di potnya untuk mendapatkan sterilisasi yang menyeluruh, terutama yang berada di garis depan yang langsung kontak dengan zombie. Namun, tampaknya hanya tanaman jenis bawang putih yang bersedia tumbuh di potnya. \"Beberapa tanaman lebih suka menghadapi zombie daripada mencium bau bawang putihku,\" Garlic Pot menghela napas. \"Sekarang aku hanya bisa menggunakan bawang putih untuk mensterilkan bawang putih, dan mereka bilang itu cocok sekali.\"</color>",
+      "info": "<size=24>Mengurangi kerusakan gigitan yang diterima oleh tanaman jenis bawang putih di atasnya, dan memiliki efek bawang putih sendiri.\n\n<color=black>Keistimewaan: </color><color=#8B0000>Memaksa zombie untuk bergerak ke baris tengah</color>\n<color=black>Formula Fusi: </color><color=#8B0000>Flower Pot + Garlic</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1131,
+      "name": "<size=24>Umbrella Rind",
+      "introduce": "<size=24><color=black>\"Berikan aku melon; aku akan membalas dengan kebaikan.\" Umbrella Rind selalu mengagumi pepatah ini dari puisi kuno. Tanaman tidak perlu menyuapnya untuk mendapatkan bantuan—apa pun yang mereka berikan, dia kembalikan. Yah, kecuali bola basket. Dia penggemar berat bola basket.</color>",
+      "info": "<size=24>Menangkis bola basket dan mengembalikan melon yang dilontarkan.\n\n<color=black>Keistimewaan: </color><color=#8B0000>Dapat memantulkan proyektil zombie, termasuk ledakan, namun kehilangan 30 kesehatan setiap kali. Setiap pantulan menyimpan energi setara dengan kerusakan proyektil, melepaskan semuanya pada zombie untuk kerusakan tambahan saat dorongan mundur terjadi.</color>\n<color=black>Formula Fusi: </color><color=#8B0000>Melon-pult + Umbrella Leaf</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1132,
+      "name": "<size=24>Melon Cannon",
+      "introduce": "<size=24><color=black>Melon Cannon adalah pendukung kuat doktrin \"kekuatan tembakan yang luar biasa\": \"Jika satu tembakan tidak cukup, coba dua, tiga, atau bahkan empat!\" Pendekatan ini membuatnya menjadi kekuatan besar di medan perang—dan populer di pesta musim panas.</color>",
+      "info": "<size=24>Digunakan secara manual untuk meluncurkan rentetan melon dari atas.\n\n<color=black>Kerusakan: </color><color=#8B0000>200 / Melon. Hingga 40 melon dalam area 3x3 tanpa pengurangan. Menyerang secara acak dalam grid 5x3.</color>\n<color=black>Waktu Persiapan: </color><color=#8B0000>36 Detik</color>\n<color=black>Formula Fusi: </color><color=#8B0000>Cob Cannon + Melon-pult</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1133,
+      "name": "<size=24>Umbrella Pot",
+      "introduce": "<size=24><color=black>Pot bunga lain bingung dengan dedaunan lebat Umbrella Pot, tetapi Umbrella Pot hanya berkata, \"Aku hanya membaca buku *Panduan Perawatan Rambut Pot*.\"</color>",
+      "info": "<size=24>Meningkatkan kemampuan tanaman jenis payung.\n\n<color=black>Umbrella Husk:</color> <color=#8B0000>+2 detik imobilisasi, +50% jarak dorongan</color>\n<color=black>Umbrella Rind:</color> <color=#8B0000>Melipatgandakan kerusakan proyektil yang dipantulkan</color>\n<color=black>Umbrella Clove, Silver, Advanced Umbrellas:</color>\n<color=#8B0000>Melipatgandakan jarak dorongan</color>\n<color=black>Umbrella Kale:</color> <color=#8B0000>Dapat menyerang zombie di jalur bersebelahan</color>\n<color=black>Formula Fusi: </color><color=#8B0000>Flower Pot + Umbrella Leaf</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1134,
+      "name": "<size=24>Silver Cabbage",
+      "introduce": "<size=24><color=black>Selain memiliki tampilan perak yang mengkilap, Silver Cabbage juga memiliki hati yang tulus. Silver Cabbage bermimpi menjadi seorang guru dan sudah memikirkan slogan: \"Instruktur Silver Cabbage, siap melayani.\"</color>",
+      "info": "<size=24>Melontarkan kol perak untuk menyerang zombie.\n\n<color=black>Kerusakan: </color><color=#8B0000>80/3 Detik</color>\n<color=black>Formula Fusi: </color><color=#8B0000>Marigold + Cabbage-pult</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1135,
+      "name": "<size=24>Golden Cabbage",
+      "introduce": "<size=24><color=black>Golden Cabbage bukan hanya soal penampilannya yang memukau—ia memiliki hati yang tulus. Ia senang berjuang bersama tanaman melawan zombie dan bermimpi suatu hari nanti diakui sebagai \"Pahlawan Kol Emas.\"</color>",
+      "info": "<size=24>Menyerang zombie dengan melemparkan kol emas. Serangan pamungkasnya menghujani kol ke semua zombie!\n\n<color=black>Kerusakan: </color><color=#8B0000>120/3 Detik</color>\n<color=black>Pamungkas: </color><color=#8B0000>Biaya 1000 Koin; melempar kol ke setiap zombie, langsung membunuh yang memiliki kesehatan di bawah 300.</color>\n<color=black>Biaya Peningkatan: </color><color=#8B0000>1000 Koin</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1136,
+      "name": "<size=24>Silver Pot",
+      "introduce": "<size=24><color=black>\"Orang-orang selalu berkata ‘emas ini, perak itu,' seolah-olah kami punya hierarki,\" kata Silver Pot. \"Marigold itu perak, tapi tetap disebut Marigold.\" Kata-katanya mungkin lebih meyakinkan jika pandangannya tidak terpaku pada biji kopi di tepi atap.</color>",
+      "info": "<size=24>Memberikan tambahan koin untukmu.\n\n<color=black>Output Koin: </color><color=#8B0000>25/25 Detik</color>\n<color=black>Formula Fusi: </color><color=#8B0000>Flower Pot + Marigold</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1137,
+      "name": "<size=24>Golden Pot",
+      "introduce": "<size=24><color=black>\"Banyak orang kaya yang memperlakukan uang seperti kotoran, tapi aku berbeda,\" jelas Golden Pot. \"Itulah caraku menjadi kaya sejak awal.\"</color>",
+      "info": "<size=24>Memberikan tambahan koin dan meningkatkan kemampuan pamungkas dari tanaman emas di atasnya.\n\n<color=black>Keistimewaan: </color><color=#8B0000>Saat kamu memicu kemampuan pamungkas Tanaman Emas di atasnya, semua Tanaman Emas lainnya pada Golden Pot dengan biaya pamungkas yang sama atau lebih rendah juga memicu kemampuan pamungkas mereka.</color>\n<color=black>Biaya Peningkatan: </color><color=#8B0000>2000 Koin; setiap Golden Pot yang ada akan meningkatkan biayanya secara eksponensial.</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1138,
+      "name": "<size=24>Silver Kernel",
+      "introduce": "<size=24><color=black>\"Mengapa melempar koin perak ke zombie? Mengapa, mengapa? Meski zombie hanya data game, kita sebaiknya tetap memberikan penghormatan terakhir,\" kata Silver Kernel, yang dulu pernah bekerja sebagai usher di teater, sebelum menemukan bakatnya dalam berbicara di depan umum dan masuk ke dunia public speaking dengan mentega dan butir jagungnya.</color>",
+      "info": "<size=24>Menembakkan butir jagung perak dan kantong uang perak untuk menyerang zombie, dengan peluang menghasilkan koin.\n\n<color=black>Kerusakan: </color><color=#8B0000>40/3 Detik</color>\n<color=black>Keistimewaan: </color><color=#8B0000>Memiliki peluang 1/4 untuk melempar kantong uang perak, memberikan 60 kerusakan, melumpuhkan zombie selama 4 detik, dan menghasilkan 25 koin.</color>\n<color=black>Formula Fusi: </color><color=#8B0000>Marigold + Kernel-pult</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1139,
+      "name": "<size=24>Golden Kernel",
+      "introduce": "<size=24><color=black>Golden Kernel merenungkan kata-kata seperti \"frasa emas\" dan \"permata berharga.\" Tapi mungkin harta sejati terletak pada mentega impor dan peluru emas... atau \"Just Gold.\"</color>",
+      "info": "<size=24>Melemparkan butir jagung emas dan mentega pada zombie, dengan peluang menghasilkan koin. Kemampuan pamungkasnya menembakkan popcorn emas ke zombie.\n\n<color=black>Kerusakan: </color><color=#8B0000>60/3 Detik</color>\n<color=black>Keistimewaan: </color><color=#8B0000>Peluang 25% untuk melempar kantong uang, memberikan 80 kerusakan, melumpuhkan zombie selama 4 detik, dan menghasilkan 100 koin.</color>\n<color=black>Pamungkas: </color><color=#8B0000>Biaya 4000 Koin; meluncurkan empat bom jagung emas, masing-masing memberikan 450 kerusakan dalam area 3x3 tanpa pengurangan kerusakan.</color>\n<color=black>Biaya Peningkatan: </color><color=#8B0000>2000 Koin</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1140,
+      "name": "<size=24>Twin Marigold",
+      "introduce": "<size=24><color=black>\"Saatnya membuat koin emas!\" salah satu kepala Twin Marigold berseru. Tapi kepala satunya menegaskan, \"Sekarang adalah waktu yang tepat untuk koin perak!\" Karena mereka tidak pernah sepakat, mereka masing-masing menghasilkan bagiannya sendiri-sendiri, yang mungkin memang yang terbaik. \"Pendapat ganda, efisiensi ganda—bukankah begitu?\"</color>",
+      "info": "<size=24>Menghasilkan jumlah koin ganda!\n\n<color=black>Output Koin: </color><color=#8B0000>Menghasilkan koin dua kali setiap 20 detik, sama seperti Marigold.</color>\n<color=black>Formula Fusi: </color><color=#8B0000>Marigold + Marigold</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1141,
+      "name": "<size=24>Silver Melon",
+      "introduce": "<size=24><color=black>Silver Melon kadang menganggap dirinya melon paling berharga—sampai ia mengingat Golden Melon yang lebih bergengsi. \"Melon adalah melon, entah itu perak, dilapisi emas, dibuat dengan bawang putih atau emas,\" Silver Melon tertawa. \"Kami semua memiliki tempat di tanah.\"</color>",
+      "info": "<size=24>Meluncurkan melon perak untuk menyerang zombie.\n\n<color=black>Kerusakan: </color><color=#8B0000>160/3 Detik</color>\n<color=black>Formula Fusi: </color><color=#8B0000>Marigold + Melon-pult</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1142,
+      "name": "<size=24>Golden Melon",
+      "introduce": "<size=24><color=black>Golden Melon tidak keberatan ditanya tentang kulit dan bijinya yang emas, tapi jangan pernah bertanya apakah ia bebas biji—ia tidak sabar dengan pertanyaan itu.</color>",
+      "info": "<size=24>Melemparkan melon emas pada zombie; kemampuan pamungkasnya menghujani melon emas di seluruh layar.\n\n<color=black>Kerusakan: </color><color=#8B0000>240/3 Detik</color>\n<color=black>Pamungkas: </color><color=#8B0000>Biaya 3000 Koin; meluncurkan 60 melon emas, masing-masing memberikan 120 kerusakan, dan jatuh secara acak di seluruh layar.</color>\n<color=black>Biaya Peningkatan: </color><color=#8B0000>3000 Koin</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1143,
+      "name": "<size=24>Silver Umbrella",
+      "introduce": "<size=24><color=black>Silver Umbrella selalu cemas jika ada yang mencuri uangnya saat ia pergi, jadi ia membawa kekayaannya ke mana-mana—bahkan dalam pertempuran melawan zombie. Dia pikir ini membuat hartanya aman, tetapi sebenarnya hanya menambah risiko baru. \"Itu uangku; kalian tidak boleh mengambilnya!\" keluhnya, meskipun tak ada yang mendengarkan.</color>",
+      "info": "<size=24>Memberikan tambahan uang setiap kali memantulkan bola basket.\n\n<color=black>Keistimewaan: </color><color=#8B0000>Menjatuhkan 25 koin setiap kali diaktifkan.</color>\n<color=black>Formula Fusi: </color><color=#8B0000>Marigold + Umbrella Leaf</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1144,
+      "name": "<size=24>Golden Umbrella",
+      "introduce": "<size=24><color=black>Golden Umbrella tidak suka berada di tempat ini—setelah insiden di air, ia dikirim ke sini bersama Silver Umbrella. Kenangan itu masih membuatnya kesal. \"Ini tidak adil! Kenapa aku yang jadi bonus di sini?\"</color>",
+      "info": "<size=24>Memantulkan bola basket, menghasilkan koin tambahan, dan kemampuan pamungkasnya dapat menjatuhkan imp udara serta mengusir semua zombie di sekitar.\n\n<color=black>Keistimewaan: </color><color=#8B0000>Menjatuhkan 10 koin setiap kali memantulkan bola basket.</color>\n<color=black>Pamungkas: </color><color=#8B0000>Biaya 2000 koin; mengusir semua zombie di sekitar, menjatuhkan 25 koin per zombie, menghempaskan imp udara, dan menjatuhkan 3 berlian.</color>\n<color=black>Biaya Peningkatan: </color><color=#8B0000>1000 Koin</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1145,
+      "name": "<size=24>Silver Garlic",
+      "introduce": "<size=24><color=black>Apakah bawang putih yang terbuat dari perak tetap berbau bawang putih? Mungkin tidak, tapi baik tanaman maupun zombie tidak tertarik untuk mengujinya. Namun, zombie segera menyesali rasa penasarannya setelah mencicipinya!</color>",
+      "info": "<size=24>Mungkin bawang putih dengan aroma lebih kuat? Bisa jadi.\n\n<color=black>Ketahanan: </color><color=#8B0000>600</color>\n<color=black>Formula Fusi: </color><color=#8B0000>Marigold + Garlic</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1146,
+      "name": "<size=24>Golden Garlic",
+      "introduce": "<size=24><color=black>Di balik tampilannya yang memukau tersembunyi aroma bawang putih yang menyengat. Golden Garlic merenung, \"Nilai sejati hanya ada di penampilan, bukan di detailnya.\" Tapi semua orang tahu bawang putih \"emas\" ini hanyalah bawang putih biasa dengan lapisan berkilau.</color>",
+      "info": "<size=24>Bawang putih yang lebih kuat dengan aroma emas yang dapat memaksa semua zombie di depannya berpindah jalur dengan kemampuan pamungkasnya.\n\n<color=black>Ketahanan: </color><color=#8B0000>900</color>\n<color=black>Pamungkas: </color><color=#8B0000>Biaya 1000 Koin; memaksa semua zombie di jalurnya untuk berpindah jalur.</color>\n<color=black>Biaya Peningkatan: </color><color=#8B0000>1000 Koin</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1147,
+      "name": "<size=24>Hypno-nut",
+      "introduce": "<size=24><color=black>Hypno-nut memiliki rasa sayang khusus terhadap zombie: \"Ada sesuatu yang aneh namun menyenangkan dari cara mereka menggigitku. Ini bukan seperti menggaruk gatal... mari kita sebut saja kasih sayang dari kontak berkepanjangan,\" katanya dengan filosofis.</color>",
+      "info": "<size=24>Memikat zombie dan memanggil Zombie Kotak Misteri Terpikat setiap 30 detik!\n\n<color=black>Ketahanan: </color><color=#8B0000>4000</color>\n<color=black>Keistimewaan: </color><color=#8B0000>Setiap kali digigit, ada peluang 4% untuk memikat zombie. Selain itu, dapat memulihkan 100 kesehatan ketika terkena spora dari Trippy-shroom, dan menyimpan satu spora dari warna itu setiap kali terkena (maksimal 3). Ketika mengumpulkan 7 warna spora yang berbeda, ia mengonsumsi satu dari masing-masing warna dan memanggil Zombie Kotak Misteri Emas Terpikat, lalu sepenuhnya sembuh.</color>\n<color=black>Formula Fusi: </color><color=#8B0000>Wall-nut + Hypno-shroom</color>",
+      "cost": "<size=24>"
+    },
+    {
+      "seedType": 1148,
+      "name": "<size=24>Alchemist Umbrella",
+      "introduce": "<size=24><color=black>Alchemist Umbrella adalah taipan di antara tanaman, menyediakan pekerjaan untuk zombie dan tanaman. \"Aku memaksimalkan nilai mereka,\" ujarnya sambil memoles kacamatanya yang berkilau.</color>",
+      "info": "<size=24>Berisiko tinggi, hasil tinggi!\n\n<color=black>Ketahanan: </color><color=#8B0000>1000</color>\n<color=black>Keistimewaan: </color><color=#8B0000>Memiliki sifat dari Umbrella Clove dan Golden Umbrella.</color>\n<color=black>Pamungkas: </color><color=#8B0000>Biaya 3000 Koin; mengusir semua zombie di sekitar, mengubah yang memiliki kurang dari 25% HP menjadi patung perak senilai 1000 koin, atau patung emas senilai 3000 koin jika HP di bawah 10%. Zombie tanpa patung akan langsung menjatuhkan koin.</color>\n<color=black>Formula Fusi: </color><color=#8B0000>Golden Garlic + Umbrella Leaf (atau Golden Umbrella + Garlic)</color>",
+      "cost": "<size=24>"
     }
   ]
 }

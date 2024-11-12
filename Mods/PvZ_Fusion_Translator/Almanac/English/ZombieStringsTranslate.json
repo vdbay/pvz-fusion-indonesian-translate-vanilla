@@ -293,6 +293,96 @@
             "name": "<size=30>Kirov Drone</size>",
             "introduce": "<size=24><color=#3D1400>Ini bukan pesawat biasa; ini adalah pesawat khusus yang telah dikompresi melalui tekanan air. Meskipun metode kompresinya tetap misteri, kekuatan tempurnya sebanding dengan pembom konvensional.</color></size>",
             "info": "<size=24>Drone Kirov terbang lebih cepat, melepaskan bom di atas tanaman yang mereka lewati.\n\n<color=#3D1400>Kerusakan Bom: </color><color=#4B0082>1000</color>\n<color=#3D1400>Kekuatan: </color><color=#4B0082>200</color></size>"
+        },
+        {
+            "theZombieType": 31,
+            "name": "<size=24>Catapult Zombie",
+            "introduce": "<size=24><color=black>Tidak ada yang tahu bagaimana Catapult Zombie bisa melempar dengan begitu presisi, tetapi satu hal yang pasti—jika kamu melihatnya, cepat-cepatlah lindungi kepalamu!</color>",
+            "info": "<size=24>Melontarkan bola basket untuk menyerang tanamanmu.\n\n<color=black>Ketahanan: </color><color=#4B0082>850</color>\n<color=black>Ciri: </color><color=#4B0082>Melempar bola basket yang memberikan 60 kerusakan.</color>"
+        },
+        {
+            "theZombieType": 32,
+            "name": "<size=24>Pogo Zombie",
+            "introduce": "<size=24><color=black>Pogo Zombie suka melompat-lompat, berpikir bahwa melompat ke arah langit adalah yang paling dekat yang pernah ia capai untuk terbang. Namun, tidak ada yang memberitahunya untuk tidak menggunakan trampolin di atap...</color>",
+            "info": "<size=24>Zombie yang bisa melompati pertahananmu.\n\n<color=black>Ketahanan: </color><color=#4B0082>720</color>\n<color=black>Ciri: </color><color=#4B0082>Dapat melompati tanaman.</color>"
+        },
+        {
+            "theZombieType": 33,
+            "name": "<size=24>Ladder Zombie",
+            "introduce": "<size=24><color=black>Ladder Zombie mendengar di internet bahwa dengan tangga dan pakaian kerja, ia bisa menyelinap melewati pertahanan apa pun. Dilengkapi tangga dan berpakaian seperti pekerja, ia siap menaklukkan pertahanan tanaman.\nKomentar Peashooter: \"Tidak ada yang memberitahunya bahwa kulit zombienya terlalu mencolok...?\"</color>",
+            "info": "<size=24>Zombie ini menggunakan tangga untuk melewati rintangan.\n\n<color=black>Ketahanan: </color><color=#4B0082>720+720</color>\n<color=black>Ciri: </color><color=#4B0082>Dapat menggunakan tangga untuk mengabaikan pertahanan tanaman.</color>"
+        },
+        {
+            "theZombieType": 34,
+            "name": "<size=24>Pogo Melon Zombie",
+            "introduce": "<size=24><color=black>Kutipan: \"Sangat tidak mungkin peluru meledak di kawah yang sama dua kali! Inilah yang disebut ‘Teori Kawah,'\" kata Pogo Melon Zombie sambil menyesuaikan topi kulit melonnya. Namun, tidak ada yang memberitahunya bahwa warna merah-hijau yang mencolok membuatnya terlihat menonjol di antara zombie lainnya.</color>",
+            "info": "<size=24>Zombie ini mengisi daya dan melompat ke dalam pertahananmu!\n\n<color=black>Ketahanan: </color><color=#4B0082>270+2200</color>\n<color=black>Ciri: </color><color=#4B0082>Mengisi daya selama 5 detik, lalu melakukan lompatan besar. Selama melompat, ia tidak dapat diserang.</color>"
+        },
+        {
+            "theZombieType": 35,
+            "name": "<size=24>Gargantuar",
+            "introduce": "<size=24><color=black>Gargantuar bagaikan makhluk besar yang kikuk, ukurannya menjadi keuntungan dengan mengorbankan kecerdasan. Dia tidak mengerti tanaman atau otak; dia hanya tahu cara terus maju tanpa henti.</color>",
+            "info": "<size=24>Zombie besar yang bergerak lambat dan menghancurkan segala yang ada di jalannya dengan ukurannya yang luar biasa.\n\n<color=black>Ketahanan: </color><color=#4B0082>3000</color>"
+        },
+        {
+            "theZombieType": 36,
+            "name": "<size=24>Giga-gargantuar",
+            "introduce": "<size=24><color=black>Meskipun Giga-gargantuar menyebabkan kehancuran di medan perang, mata merahnya yang menyeramkan menimbulkan ketakutan pada semua yang menghadapinya, ada rahasia kecil yang tidak diketahui: monster ini selalu mudah marah karena kurang tidur kronis.</color>",
+            "info": "<size=24>Gargantuar yang marah menghancurkan segala yang ada di jalannya dengan kekuatan yang menakutkan.\n\n<color=black>Ketahanan: </color><color=#4B0082>6000</color>"
+        },
+        {
+            "theZombieType": 37,
+            "name": "<size=24>Imp",
+            "introduce": "<size=24><color=black>Imp suka menyelinap ke celah-celah sempit, sering kali membuat keributan. Jangan kaget jika kamu melihatnya melompat-lompat tanpa diduga!</color>",
+            "info": "<size=24>Kecil dan licik, Imp suka menyelinap ke celah-celah sempit, membuatnya gesit dan lebih sulit dijangkau.\n\n<color=black>Ketahanan: </color><color=#4B0082>270</color>"
+        },
+        {
+            "theZombieType": 38,
+            "name": "<size=24>Mecha Gargantuar",
+            "introduce": "<size=24><color=black>Zombie dari game populer Plant Girls vs Zombies.</color>",
+            "info": "<size=24>Penemuan lain dari Dr. Gargantuar, kebal terhadap efek pembekuan dan akan menyerbu pertahananmu tanpa ragu.\n\n<color=black>Ketahanan: </color><color=#4B0082>3000</color>\n<color=black>Ciri: </color><color=#4B0082>Kebal terhadap efek kontrol, tetap bergerak bahkan saat didorong mundur, rentan terhadap Magnet-shroom.</color>"
+        },
+        {
+            "theZombieType": 39,
+            "name": "<size=24>Mecha Giga-gargantuar",
+            "introduce": "<size=24><color=black>Zombie dari game populer Plant Girls vs Zombies.</color>",
+            "info": "<size=24>Kreasi terbaru dari Dr. Gargantuar, versi mekanis ini kebal terhadap pembekuan dan langsung menyerang pertahananmu.\n\n<color=black>Ketahanan: </color><color=#4B0082>6000</color>\n<color=black>Ciri: </color><color=#4B0082>Kebal terhadap efek kontrol, terus bergerak meski didorong mundur, rentan terhadap Magnet-shroom.</color>"
+        },
+        {
+            "theZombieType": 40,
+            "name": "<size=24>Mecha-nut Bowling Zombie",
+            "introduce": "<size=24><color=black>Zombie berbentuk bola bowling yang bergulir di sisi zombie.</color>",
+            "info": "<size=24>Meluncur sebagai bola bowling yang bisa berganti arah saat menghantam tanaman, dan mempercepat di lereng.\n\n<color=black>Ketahanan: </color><color=#4B0082>1350</color>\n<color=black>Ciri: </color><color=#4B0082>Berganti arah saat menabrak tanaman, mempercepat di lereng, menghancurkan tanaman di bawah 1000 kesehatan, memberikan 1000 kerusakan pada tanaman yang lebih kuat, dan melambat setelah berbelok. Dapat dihentikan oleh fusi Umbrella. Mengeluarkan 5 Imp saat mati.</color>\n<color=black>Hadiah: </color><color=#4B0082>Peluang 1/3 untuk mendapatkan bola es, bola api, atau Mecha Fragment.</color>\n\n<color=black>Bola menghancurkan tanaman, menahan hingga 30 peluru, atau bertahan 30 detik. Bisa dilawan dengan tanaman berbasis es/api.</color>"
+        },
+        {
+            "theZombieType": 207,
+            "name": "<size=24>Superstar Zombie",
+            "introduce": "<size=24><color=black>Superstar Zombie, idola legendaris di dunia zombie, memiliki standar yang sangat tinggi untuk dirinya sendiri. Setelah menyelesaikan studinya di Edgar's Dance Academy, dia menguasai Super Moonwalk yang dinamai \"Keajaiban Keenam Dunia Zombie,\" membuatnya memiliki banyak penggemar.</color>",
+            "info": "<size=24>Zombie yang bergerak cepat dan meluncur ke pertahananmu, lawan yang sulit dihadapi.\n\n<color=black>Ketahanan: </color><color=#4B0082>3000</color>\n<color=black>Ciri: </color><color=#4B0082>Meluncur di medan perang, mengurangi kerusakan sebesar 90% saat meluncur, kemudian memanggil Zombie Penari.</color>"
+        },
+        {
+            "theZombieType": 208,
+            "name": "<size=24>Undying Wraith",
+            "introduce": "<size=24><color=black>Monster ini bertahan dari kondisi terberat dan memiliki kekuatan yang luar biasa. Ia menghindari otak dan berkeliaran mencari tempat yang sepi.</color>",
+            "info": "<size=24>Hantu dari seribu tahun yang lalu, dengan kekuatan besar.\n\n<color=black>Ketahanan: </color><color=#4B0082>3000</color>\n<color=black>Kerusakan: </color><color=#4B0082>500</color>\n<color=black>Ciri: </color><color=#4B0082>Sesekali melompat pendek, memberikan 500 kerusakan pada tanaman di jalurnya dan lagi saat keluar. Ketika mati, memberikan 500 kerusakan pada tanaman dalam area 3×3, kecuali yang dilindungi oleh Pumpkin.</color>"
+        },
+        {
+            "theZombieType": 209,
+            "name": "<size=24>Pogo King Clown</size>",
+            "introduce": "<size=24><color=black>\"Aku hanya ingin ikut tren dengan penampilan ini,\" kata Pogo King Clown dengan angkat bahu setiap kali penampilannya yang keren dibahas. Tapi semua orang tahu dia pernah memiliki kisah cinta yang meninggalkan kesan mendalam padanya.</color></size>",
+            "info": "<size=24>Bom tersembunyi di tongkat pogonya.\n\n<color=black>Ketahanan: </color><color=#4B0082>270+3000</color>\n<color=black>Ciri: </color><color=#4B0082>Jika mati saat melompat, ia akan meledak dan berubah menjadi Zombie King Clown-in-the-Box.</color></size>"
+        },
+        {
+            "theZombieType": 210,
+            "name": "<size=24>Super Mecha Bowling Ball</size>",
+            "introduce": "<size=24><color=black>\"Bola ikan? Armor mecha? Itulah yang terpenting,\" kata Super Mecha Bowling Ball Zombie. Mengenakan setelan mekanik yang mengesankan, dia merasa itulah yang dia butuhkan.</color></size>",
+            "info": "<size=24>Super Mecha Bowling Ball bisa berganti arah.\n\n<color=black>Ketahanan: </color><color=#4B0082>3000</color></size>"
+        },
+        {
+            "theZombieType": 112,
+            "name": "<size=24>Explod-o-pult Zombie",
+            "introduce": "<size=24><color=black>Peringatan: Sebelum ia menghabiskan semua bola basketnya, pastikan untuk lari, karena bola basketnya yang meledak akan menyebabkan kekacauan!</color>",
+            "info": "<size=24>Melempar bola basket yang meledak untuk menghancurkan pertahananmu!\n\n<color=black>Ketahanan: </color><color=#4B0082>1350</color>\n<color=black>Ciri: </color><color=#4B0082>Melempar 5 bola basket, lalu melempar bola basket yang meledak. Ledakan memberikan 30 kerusakan pada tanaman Umbrella.</color>"
         }
     ]
 }
